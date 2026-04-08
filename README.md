@@ -4,6 +4,7 @@ Quarto-based personal portfolio site with project summaries, resume content, and
 
 
 SHINY web: https://connect.posit.cloud/stanislavamincheva12/content/019d6d99-e4ec-3ef6-4076-7c5457291dbb
+QUATTRO web: https://connect.posit.cloud/stanislavamincheva12/content/019d6d9d-c370-b7eb-a12c-18abe1304626
 
 ## Local development
 
