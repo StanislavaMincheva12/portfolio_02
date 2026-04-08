@@ -2,6 +2,9 @@
 
 Quarto-based personal portfolio site with project summaries, resume content, and an interactive Shiny for Python dashboard built from a real DSS emissions project.
 
+
+SHINY web: https://connect.posit.cloud/stanislavamincheva12/content/019d6d99-e4ec-3ef6-4076-7c5457291dbb
+
 ## Local development
 
 1. Install Quarto.
