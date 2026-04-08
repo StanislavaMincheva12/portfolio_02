@@ -1,0 +1,54 @@
+---
+title: "Home"
+format: html
+---
+
+```{=html}
+<section class="hero-panel">
+	<p class="eyebrow">Data science portfolio</p>
+	<h1>Stanislava Valentinova Mincheva</h1>
+	<p class="hero-lead">Final-year Data Science and Society student at Central European University with hands-on experience in Python, SQL, machine learning, and statistical modelling across healthcare and climate datasets.</p>
+	<div class="hero-links">
+		<a class="button-link" href="projects/resume.qmd">View Resume</a>
+		<a class="ghost-link" href="projects/index.qmd">Explore Projects</a>
+	</div>
+</section>
+```
+
+## Current Focus
+
+- Entry-level data analyst and software engineering roles focused on data-driven problem solving.
+- Applied machine learning, time-series analysis, and statistical validation in real datasets.
+- Building reliable analytical workflows that translate quantitative work into clear decisions.
+
+## Highlights
+
+```{=html}
+<div class="grid-two">
+	<div class="info-card">
+		<h3>CheckCells internship</h3>
+		<p>Performed statistical validation of AI-based semen analysis models, supporting two FDA regulatory submissions and two peer-reviewed publications.</p>
+	</div>
+	<div class="info-card">
+		<h3>Healthcare modeling project</h3>
+		<p>Processed 40,000+ ICU patient records from MIMIC-III with SQL and Python and built a pathogen alert classification workflow for clinical safety analysis.</p>
+	</div>
+	<div class="info-card">
+		<h3>Time-series forecasting</h3>
+		<p>Analysed European CO2 emissions and fuel consumption data from 1990 to 2020 using regression and ARIMA models to improve out-of-sample forecasting.</p>
+	</div>
+	<div class="info-card">
+		<h3>Published research contribution</h3>
+		<p>Co-authored work on AI-driven semen analysis for male infertility diagnostics published in the World Journal of Men's Health in 2025.</p>
+	</div>
+</div>
+```
+
+## Contact
+
+- Email: stanislava.v.m@gmail.com
+- Phone: +43 664 500 2916
+- Location: Vienna, Austria
+- LinkedIn: https://www.linkedin.com/in/stanislava-mincheva-ba84b6217/
+- GitHub: https://github.com/StanislavaMincheva12
+- CV PDF: [Download CV](assets/Stanislava_Mincheva_CV.pdf)

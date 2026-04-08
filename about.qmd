@@ -1,0 +1,43 @@
+---
+title: "About"
+format: html
+---
+
+# About Me
+
+I am Stanislava Mincheva, a final-year Data Science and Society student at Central European University based in Vienna. My work combines machine learning, applied statistics, and analytical problem solving across healthcare, business, and climate data.
+
+I am interested in entry-level roles where strong technical execution matters: data analysis, analytics engineering, and software-adjacent work built around reliable data workflows.
+
+## What I Work On
+
+- Data analysis in Python, SQL, and MATLAB.
+- Machine learning, statistical modelling, time-series analysis, and econometrics.
+- Visualization and reporting with Matplotlib, Seaborn, Tableau, and Jupyter.
+- Practical tools and workflows including Git, GitHub, SQLite, DBeaver, and LaTeX.
+
+## Recent Experience
+
+At CheckCells, I perform statistical validation of AI-based semen analysis models, contribute to data labelling and quality assurance workflows, and support market, sales, and competitor analysis. The work spans technical validation and practical business analysis, which has been a strong training ground for data-driven problem solving.
+
+Before that, I worked at Intelektus in a business and product internship role, where I supported market analysis, white paper preparation, software testing, and usability-oriented product work.
+
+## Education
+
+- B.Sc. in Data Science and Society, Central European University
+- Expected June 2026
+- GPA: 3.79 / 4.00, Distinction
+- Coursework includes Algorithms and Data Structures, Advanced Machine Learning, Intermediate Econometrics, Optimization, Numerical Methods, Data Visualization, Object Oriented Programming, and Data Management
+
+## Publication and Activities
+
+- Co-author of "AI-driven semen analysis: transforming semen analysis for male infertility diagnostics," World Journal of Men's Health, 2025
+- Deputy President, Bulgarian Red Cross Youth, 2021
+- Led financial strategy and external partnerships for a WWF-awarded autonomous aeroponics farming venture
+
+## Links
+
+- LinkedIn: https://www.linkedin.com/in/stanislava-mincheva-ba84b6217/
+- GitHub: https://github.com/StanislavaMincheva12
+- ORCID: https://orcid.org/0009-0003-1307-2716
+- Email: stanislava.v.m@gmail.com

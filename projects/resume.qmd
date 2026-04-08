@@ -1,0 +1,110 @@
+---
+title: "Resume & Contact"
+format: html
+---
+
+# Stanislava Valentinova Mincheva
+
+**Final-year Data Science student focused on analytics, machine learning, and applied statistical modelling**
+
+- Email: stanislava.v.m@gmail.com
+- Phone: +43 664 500 2916
+- Location: Vienna, Austria
+- LinkedIn: https://www.linkedin.com/in/stanislava-mincheva-ba84b6217/
+- GitHub: https://github.com/StanislavaMincheva12
+- ORCID: https://orcid.org/0009-0003-1307-2716
+- CV PDF: [Download CV](../assets/Stanislava_Mincheva_CV.pdf)
+
+## Summary
+
+Final-year Data Science student with experience in Python, SQL, machine learning, and statistical modelling across healthcare and climate datasets. Built predictive models, conducted statistical validation for AI diagnostic systems contributing to FDA regulatory submissions, and co-authored a peer-reviewed publication. Seeking an entry-level data analyst or software engineering role focused on data-driven problem solving and analytics.
+
+## Skills
+
+- Programming: Python, SQL, MATLAB
+- Data science: Machine Learning, Statistical Modelling, Time-Series Analysis, Econometrics, Data Visualization, Data Management
+- Libraries and tools: pandas, NumPy, SciPy, scikit-learn, TensorFlow, Matplotlib, Seaborn, Tableau, Jupyter, Git/GitHub, SQLite, DBeaver, LaTeX
+- Languages: Bulgarian (native), English (fluent), Russian (conversational)
+
+## Education
+
+- B.Sc. in Data Science and Society, Central European University, Vienna
+- Expected June 2026
+- GPA: 3.79 / 4.00, Distinction
+- Selected coursework: Algorithms and Data Structures, Advanced Machine Learning, Advanced Probability and Statistics, Intermediate Econometrics, Optimization, Numerical Methods, Data Visualization, Mathematics for AI, Object Oriented Programming, Data Analysis, Data Management
+
+## Publication
+
+- "AI-driven semen analysis: transforming semen analysis for male infertility diagnostics," World Journal of Men's Health, 2025
+- Co-authored with Prof. Ashok Agarwal
+
+## Experience
+
+### CheckCells, Los Angeles, US
+
+**Data and Strategy Intern** | Jan 2025 - Present
+
+- Performed statistical validation of AI-based semen analysis models, including sensitivity, specificity, and Bland-Altman analysis.
+- Supported 2 FDA regulatory submissions and 2 peer-reviewed publications.
+- Co-authored peer-reviewed editorial work on AI-driven semen analysis with Prof. Ashok Agarwal.
+- Conducted data labelling and quality assurance for microbiology and semen sample datasets used in machine learning workflows.
+- Analysed outreach and sales data to track response and conversion rates and inform targeting strategy.
+- Conducted market and competitor analysis on AI diagnostics and clinical laboratory automation.
+
+### Intelektus, Los Angeles, US
+
+**Business and Product Intern** | Jul 2020 - Sep 2020
+
+- Conducted exploratory market analysis and prepared a white paper supporting early-stage product development.
+- Assisted with software testing and user-flow analysis to improve product usability.
+- Contributed research insights to investor presentation materials.
+
+## Projects
+
+### Healthcare Analytics: Patient Outcome Modelling (MIMIC-III)
+
+- Queried, cleaned, and processed large-scale ICU clinical data with 40,000+ patient records using SQL and Python.
+- Handled missing values and irregular time-series structure.
+- Built a pathogen alert classification system for clinical safety.
+
+### Predicting PMSM Rotor Temperature and Torque
+
+- Developed CNN and Random Forest models in Python to predict temperature and torque in permanent-magnet synchronous motors.
+- Engineered time-series features and benchmarked models using MAE and RMSE.
+
+### CO2 Emissions and Fuel Use in Europe (ARIMA Analysis)
+
+- Analysed EU emissions and fuel consumption data from 1990 to 2020 using regression and time-series modelling.
+- Applied ARIMA models to forecast emissions trends, assess policy impact, and outperform a linear baseline on out-of-sample accuracy.
+
+### International Retail Coffee Price Dynamics
+
+- Modelled international retail coffee price margins as a stochastic random walk using MATLAB.
+- Presented findings to an external examiner panel.
+
+## Leadership and Activities
+
+### Deputy President, Bulgarian Red Cross Youth
+
+- Organised volunteer initiatives supporting local communities and collaborated with international youth organisations.
+
+### Student Startup: Autonomous Aeroponics Farming System
+
+- Led financial strategy and external partnerships for a WWF-awarded autonomous aeroponics venture.
+
+## Awards
+
+- 1st Place, WWF Innovation Accelerator Programme, 2021
+- Secured seed funding for an autonomous aeroponics vertical farming concept.
+
+## Contact / Hire Me
+
+If you'd like to reach me directly, use one of the contact links below.
+
+```{=html}
+<div class="contact-actions">
+  <a class="button-link" href="mailto:stanislava.v.m@gmail.com">Email Me</a>
+  <a class="ghost-link" href="https://www.linkedin.com/in/stanislava-mincheva-ba84b6217/">LinkedIn</a>
+  <a class="ghost-link" href="https://github.com/StanislavaMincheva12">GitHub</a>
+</div>
+```
