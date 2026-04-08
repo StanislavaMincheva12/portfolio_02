@@ -1,21 +1,30 @@
 ---
-title: "Data Explorer - Iris Dataset"
+title: "Food System Emissions Explorer"
 format: html
 ---
 
-# Data Explorer - Iris Dataset
+# Food System Emissions Explorer
 
-An interactive web application built with Shiny for exploring and visualizing the Iris dataset. This app allows you to filter data by species and view correlations between sepal and petal measurements.
+An interactive Shiny for Python application built from the same datasets and analysis pipeline used in the DSS notebook project on food-system greenhouse gas emissions.
 
-## Preview
+## Project Focus
 
-The Data Explorer app provides an interactive interface for analyzing the Iris dataset:
+This app turns the notebook analysis into a portfolio-ready interactive dashboard. It combines three datasets:
 
-![Iris Data Visualization](../assets/shiny_preview.png)
+- `EDGARfood.csv` for country-level emissions over time
+- `Food_Product_Emissions.csv` for food-product emissions across the supply chain
+- `GLEAM_LivestockEmissions.csv` for regional livestock emissions by gas type
 
-This visualization shows the relationship between sepal length and petal length, colored by species. The app allows you to filter by species and view detailed measurements for each data point.
+The dashboard lets visitors explore long-run global trends, regional patterns, top-emitting countries, and the highest-emission food products without reading through the full notebook.
 
-While this app is a teaching-scale project, it reflects the same direction as my broader portfolio work: turning structured data into interpretable, decision-ready views.
+## Why This Fits The Portfolio
+
+This project reflects the Data Science and Society portfolio brief closely:
+
+- The website shell is built with Quarto and published as a static site.
+- The interactive component is built with Shiny for Python.
+- The app code uses object-oriented components to separate loading, analysis, visualization, and UI concerns.
+- The dashboard showcases a real data science project rather than sample data.
 
 ## Interactive Demo
 
@@ -27,22 +36,24 @@ Interact with the live Shiny application below:
 
 ## Features
 
-- **Species Filter**: Select individual iris species or view all data
-- **Interactive Visualization**: Hover over data points to see detailed measurements
-- **Data Table**: View the filtered dataset in a formatted table
-- **Dynamic Updates**: All visualizations update in real-time based on your selection
+- **Global trend view**: Explore total food-system emissions from 1990 to 2015.
+- **Regional trend view**: Compare regions or focus on a single region such as Asia.
+- **Top-emitter country view**: See the highest-emitting country within the chosen region over time.
+- **Food-product ranking**: Inspect which products contribute most from land to retail.
+- **GLEAM livestock overview**: Compare CO2, CH4, and N2O emissions across regions.
+- **Data preview**: Inspect the cleaned EDGAR data used in the app.
 
 ## Running the App Locally
 
 To run this application on your machine:
 
 ```bash
-# Install dependencies
-pip install -r requirements.txt
+# Install app dependencies
+pip install -r projects/data/requirements.txt
 
 # Start the Shiny app
 cd projects/data
-shiny run app.py
+../../.venv/bin/python -m shiny run app.py --port 8000
 ```
 
 Then visit `http://127.0.0.1:8000` in your browser.
@@ -50,9 +61,10 @@ Then visit `http://127.0.0.1:8000` in your browser.
 ## Project Details
 
 **Technology Stack:**
-- Python 3.9
+- Python
 - Shiny for Python
 - Pandas for data manipulation
 - Plotly for interactive visualizations
+- pycountry-convert for country-to-region mapping
 
-**Repository direction:** this portfolio highlights work across data applications, statistical modeling, and validation analytics.
+**Data direction:** this dashboard is derived from the DSS notebook analysis on food-system emissions, forecasting, and regional comparisons.

@@ -1,6 +1,6 @@
 # Stanislava Mincheva Portfolio
 
-Quarto-based personal portfolio site with project summaries, resume content, and an interactive Shiny for Python demo.
+Quarto-based personal portfolio site with project summaries, resume content, and an interactive Shiny for Python dashboard built from a real DSS emissions project.
 
 ## Local development
 
@@ -19,17 +19,56 @@ quarto preview
 
 ## Interactive app
 
-The Shiny demo lives in `projects/data/app.py`.
+The Shiny app lives in `projects/data/app.py`.
 
 Install dependencies:
 
 ```bash
-pip install -r requirements.txt
+python -m venv .venv
+source .venv/bin/activate
+pip install -r projects/data/requirements.txt
 ```
 
 Run locally:
 
 ```bash
 cd projects/data
-shiny run app.py
+python -m shiny run app.py --port 8000
 ```
+
+Then open `http://127.0.0.1:8000`.
+
+## Data files
+
+The dashboard reads these CSV files from `projects/data/data/`:
+
+- `EDGARfood.csv`
+- `Food_Product_Emissions.csv`
+- `GLEAM_LivestockEmissions.csv`
+
+## Testing
+
+Check the website shell:
+
+```bash
+quarto render
+```
+
+Check the interactive app:
+
+```bash
+cd projects/data
+../../.venv/bin/python -m shiny run app.py --port 8000
+```
+
+Then visit `http://127.0.0.1:8000` and confirm that:
+
+- the dashboard loads without import errors
+- the region selector updates the regional and top-country charts
+- the food-products chart changes when you adjust the top-products input
+- the data preview table appears below the charts
+*** Add File: /Users/stanislavamincheva/Desktop/Stanislava_Mincheva_portfolio/projects/data/requirements.txt
+shiny>=0.1.0
+pandas>=1.5
+plotly>=5.0
+pycountry-convert>=0.7

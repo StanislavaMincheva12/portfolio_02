@@ -46,12 +46,12 @@ Early quantitative modeling project presented to an external examiner panel.
 - Modelled international retail coffee price margins as a stochastic random walk in MATLAB.
 - Focused on pricing dynamics and quantitative interpretation.
 
-## Data Explorer - Iris Dataset
+## Food System Emissions Explorer
 
-An interactive web application built with Shiny for exploring and visualizing the Iris dataset.
+An interactive Shiny dashboard based on my DSS notebook analysis of food-system greenhouse gas emissions.
 
-[![Iris Data Visualization](../assets/shiny_preview.png)](project1.qmd)
+[View project details →](project1.qmd)
 
-This project demonstrates object-oriented Python design patterns applied to a user-facing data visualization application. It uses Shiny for interactivity and Plotly for dynamic visualizations.
+This project demonstrates object-oriented Python design patterns applied to a real analytical dashboard. It uses EDGAR, food-product, and GLEAM datasets to make emissions trends explorable in a web interface.
 
 [View Project Details →](project1.qmd)

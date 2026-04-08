@@ -46,7 +46,7 @@
     "href": "projects/index.html",
     "title": "Projects",
     "section": "",
-    "text": "A selection of projects and research threads that reflect my current technical profile.\n\n\nLarge-scale clinical data processing and modelling project built on ICU patient data.\n\nQueried, cleaned, and processed 40,000+ patient records using SQL and Python.\nWorked with missing values and irregular time-series structure.\nBuilt a pathogen alert classification system for clinical safety use cases.\n\n\n\n\nMachine learning project on permanent-magnet synchronous motor performance.\n\nDeveloped CNN and Random Forest models in Python.\nEngineered time-series features for thermal and torque prediction.\nBenchmarked model quality with MAE and RMSE.\n\n\n\n\nTime-series and regression analysis of European emissions and fuel consumption data.\n\nModelled data covering 1990 to 2020.\nApplied regression and ARIMA forecasting.\nImproved out-of-sample accuracy over a linear baseline.\n\n\n\n\nWorked on evaluation workflows for an AI-powered semen analyzer in a healthcare startup environment.\n\nCompared device outputs against reference measurements.\nUsed sensitivity, specificity, and Bland-Altman analysis for agreement assessment.\nSupported FDA regulatory submissions and peer-reviewed publication work.\n\n\n\n\nEarly quantitative modeling project presented to an external examiner panel.\n\nModelled international retail coffee price margins as a stochastic random walk in MATLAB.\nFocused on pricing dynamics and quantitative interpretation.\n\n\n\n\nAn interactive web application built with Shiny for exploring and visualizing the Iris dataset.\n\n\n\nIris Data Visualization\n\n\nThis project demonstrates object-oriented Python design patterns applied to a user-facing data visualization application. It uses Shiny for interactivity and Plotly for dynamic visualizations.\nView Project Details →"
+    "text": "A selection of projects and research threads that reflect my current technical profile.\n\n\nLarge-scale clinical data processing and modelling project built on ICU patient data.\n\nQueried, cleaned, and processed 40,000+ patient records using SQL and Python.\nWorked with missing values and irregular time-series structure.\nBuilt a pathogen alert classification system for clinical safety use cases.\n\n\n\n\nMachine learning project on permanent-magnet synchronous motor performance.\n\nDeveloped CNN and Random Forest models in Python.\nEngineered time-series features for thermal and torque prediction.\nBenchmarked model quality with MAE and RMSE.\n\n\n\n\nTime-series and regression analysis of European emissions and fuel consumption data.\n\nModelled data covering 1990 to 2020.\nApplied regression and ARIMA forecasting.\nImproved out-of-sample accuracy over a linear baseline.\n\n\n\n\nWorked on evaluation workflows for an AI-powered semen analyzer in a healthcare startup environment.\n\nCompared device outputs against reference measurements.\nUsed sensitivity, specificity, and Bland-Altman analysis for agreement assessment.\nSupported FDA regulatory submissions and peer-reviewed publication work.\n\n\n\n\nEarly quantitative modeling project presented to an external examiner panel.\n\nModelled international retail coffee price margins as a stochastic random walk in MATLAB.\nFocused on pricing dynamics and quantitative interpretation.\n\n\n\n\nAn interactive Shiny dashboard based on my DSS notebook analysis of food-system greenhouse gas emissions.\nView project details →\nThis project demonstrates object-oriented Python design patterns applied to a real analytical dashboard. It uses EDGAR, food-product, and GLEAM datasets to make emissions trends explorable in a web interface.\nView Project Details →"
   },
   {
     "objectID": "projects/index.html#healthcare-analytics-patient-outcome-modelling-mimic-iii",
@@ -84,11 +84,11 @@
     "text": "Early quantitative modeling project presented to an external examiner panel.\n\nModelled international retail coffee price margins as a stochastic random walk in MATLAB.\nFocused on pricing dynamics and quantitative interpretation."
   },
   {
-    "objectID": "projects/index.html#data-explorer---iris-dataset",
-    "href": "projects/index.html#data-explorer---iris-dataset",
+    "objectID": "projects/index.html#food-system-emissions-explorer",
+    "href": "projects/index.html#food-system-emissions-explorer",
     "title": "Projects",
     "section": "",
-    "text": "An interactive web application built with Shiny for exploring and visualizing the Iris dataset.\n\n\n\nIris Data Visualization\n\n\nThis project demonstrates object-oriented Python design patterns applied to a user-facing data visualization application. It uses Shiny for interactivity and Plotly for dynamic visualizations.\nView Project Details →"
+    "text": "An interactive Shiny dashboard based on my DSS notebook analysis of food-system greenhouse gas emissions.\nView project details →\nThis project demonstrates object-oriented Python design patterns applied to a real analytical dashboard. It uses EDGAR, food-product, and GLEAM datasets to make emissions trends explorable in a web interface.\nView Project Details →"
   },
   {
     "objectID": "projects/resume.html",
@@ -163,44 +163,51 @@
   {
     "objectID": "projects/project1.html",
     "href": "projects/project1.html",
-    "title": "Data Explorer - Iris Dataset",
+    "title": "Food System Emissions Explorer",
     "section": "",
-    "text": "An interactive web application built with Shiny for exploring and visualizing the Iris dataset. This app allows you to filter data by species and view correlations between sepal and petal measurements.\n\n\nThe Data Explorer app provides an interactive interface for analyzing the Iris dataset:\n\n\n\nIris Data Visualization\n\n\nThis visualization shows the relationship between sepal length and petal length, colored by species. The app allows you to filter by species and view detailed measurements for each data point.\nWhile this app is a teaching-scale project, it reflects the same direction as my broader portfolio work: turning structured data into interpretable, decision-ready views.\n\n\n\nInteract with the live Shiny application below:\n\n\n\n\n\nSpecies Filter: Select individual iris species or view all data\nInteractive Visualization: Hover over data points to see detailed measurements\nData Table: View the filtered dataset in a formatted table\nDynamic Updates: All visualizations update in real-time based on your selection\n\n\n\n\nTo run this application on your machine:\n# Install dependencies\npip install -r requirements.txt\n\n# Start the Shiny app\ncd projects/data\nshiny run app.py\nThen visit http://127.0.0.1:8000 in your browser.\n\n\n\nTechnology Stack: - Python 3.9 - Shiny for Python - Pandas for data manipulation - Plotly for interactive visualizations\nRepository direction: this portfolio highlights work across data applications, statistical modeling, and validation analytics."
+    "text": "An interactive Shiny for Python application built from the same datasets and analysis pipeline used in the DSS notebook project on food-system greenhouse gas emissions.\n\n\nThis app turns the notebook analysis into a portfolio-ready interactive dashboard. It combines three datasets:\n\nEDGARfood.csv for country-level emissions over time\nFood_Product_Emissions.csv for food-product emissions across the supply chain\nGLEAM_LivestockEmissions.csv for regional livestock emissions by gas type\n\nThe dashboard lets visitors explore long-run global trends, regional patterns, top-emitting countries, and the highest-emission food products without reading through the full notebook.\n\n\n\nThis project reflects the Data Science and Society portfolio brief closely:\n\nThe website shell is built with Quarto and published as a static site.\nThe interactive component is built with Shiny for Python.\nThe app code uses object-oriented components to separate loading, analysis, visualization, and UI concerns.\nThe dashboard showcases a real data science project rather than sample data.\n\n\n\n\nInteract with the live Shiny application below:\n\n\n\n\n\nGlobal trend view: Explore total food-system emissions from 1990 to 2015.\nRegional trend view: Compare regions or focus on a single region such as Asia.\nTop-emitter country view: See the highest-emitting country within the chosen region over time.\nFood-product ranking: Inspect which products contribute most from land to retail.\nGLEAM livestock overview: Compare CO2, CH4, and N2O emissions across regions.\nData preview: Inspect the cleaned EDGAR data used in the app.\n\n\n\n\nTo run this application on your machine:\n# Install app dependencies\npip install -r projects/data/requirements.txt\n\n# Start the Shiny app\ncd projects/data\n../../.venv/bin/python -m shiny run app.py --port 8000\nThen visit http://127.0.0.1:8000 in your browser.\n\n\n\nTechnology Stack: - Python - Shiny for Python - Pandas for data manipulation - Plotly for interactive visualizations - pycountry-convert for country-to-region mapping\nData direction: this dashboard is derived from the DSS notebook analysis on food-system emissions, forecasting, and regional comparisons."
   },
   {
-    "objectID": "projects/project1.html#preview",
-    "href": "projects/project1.html#preview",
-    "title": "Data Explorer - Iris Dataset",
+    "objectID": "projects/project1.html#project-focus",
+    "href": "projects/project1.html#project-focus",
+    "title": "Food System Emissions Explorer",
     "section": "",
-    "text": "The Data Explorer app provides an interactive interface for analyzing the Iris dataset:\n\n\n\nIris Data Visualization\n\n\nThis visualization shows the relationship between sepal length and petal length, colored by species. The app allows you to filter by species and view detailed measurements for each data point.\nWhile this app is a teaching-scale project, it reflects the same direction as my broader portfolio work: turning structured data into interpretable, decision-ready views."
+    "text": "This app turns the notebook analysis into a portfolio-ready interactive dashboard. It combines three datasets:\n\nEDGARfood.csv for country-level emissions over time\nFood_Product_Emissions.csv for food-product emissions across the supply chain\nGLEAM_LivestockEmissions.csv for regional livestock emissions by gas type\n\nThe dashboard lets visitors explore long-run global trends, regional patterns, top-emitting countries, and the highest-emission food products without reading through the full notebook."
+  },
+  {
+    "objectID": "projects/project1.html#why-this-fits-the-portfolio",
+    "href": "projects/project1.html#why-this-fits-the-portfolio",
+    "title": "Food System Emissions Explorer",
+    "section": "",
+    "text": "This project reflects the Data Science and Society portfolio brief closely:\n\nThe website shell is built with Quarto and published as a static site.\nThe interactive component is built with Shiny for Python.\nThe app code uses object-oriented components to separate loading, analysis, visualization, and UI concerns.\nThe dashboard showcases a real data science project rather than sample data."
   },
   {
     "objectID": "projects/project1.html#interactive-demo",
     "href": "projects/project1.html#interactive-demo",
-    "title": "Data Explorer - Iris Dataset",
+    "title": "Food System Emissions Explorer",
     "section": "",
     "text": "Interact with the live Shiny application below:"
   },
   {
     "objectID": "projects/project1.html#features",
     "href": "projects/project1.html#features",
-    "title": "Data Explorer - Iris Dataset",
+    "title": "Food System Emissions Explorer",
     "section": "",
-    "text": "Species Filter: Select individual iris species or view all data\nInteractive Visualization: Hover over data points to see detailed measurements\nData Table: View the filtered dataset in a formatted table\nDynamic Updates: All visualizations update in real-time based on your selection"
+    "text": "Global trend view: Explore total food-system emissions from 1990 to 2015.\nRegional trend view: Compare regions or focus on a single region such as Asia.\nTop-emitter country view: See the highest-emitting country within the chosen region over time.\nFood-product ranking: Inspect which products contribute most from land to retail.\nGLEAM livestock overview: Compare CO2, CH4, and N2O emissions across regions.\nData preview: Inspect the cleaned EDGAR data used in the app."
   },
   {
     "objectID": "projects/project1.html#running-the-app-locally",
     "href": "projects/project1.html#running-the-app-locally",
-    "title": "Data Explorer - Iris Dataset",
+    "title": "Food System Emissions Explorer",
     "section": "",
-    "text": "To run this application on your machine:\n# Install dependencies\npip install -r requirements.txt\n\n# Start the Shiny app\ncd projects/data\nshiny run app.py\nThen visit http://127.0.0.1:8000 in your browser."
+    "text": "To run this application on your machine:\n# Install app dependencies\npip install -r projects/data/requirements.txt\n\n# Start the Shiny app\ncd projects/data\n../../.venv/bin/python -m shiny run app.py --port 8000\nThen visit http://127.0.0.1:8000 in your browser."
   },
   {
     "objectID": "projects/project1.html#project-details",
     "href": "projects/project1.html#project-details",
-    "title": "Data Explorer - Iris Dataset",
+    "title": "Food System Emissions Explorer",
     "section": "",
-    "text": "Technology Stack: - Python 3.9 - Shiny for Python - Pandas for data manipulation - Plotly for interactive visualizations\nRepository direction: this portfolio highlights work across data applications, statistical modeling, and validation analytics."
+    "text": "Technology Stack: - Python - Shiny for Python - Pandas for data manipulation - Plotly for interactive visualizations - pycountry-convert for country-to-region mapping\nData direction: this dashboard is derived from the DSS notebook analysis on food-system emissions, forecasting, and regional comparisons."
   },
   {
     "objectID": "index.html",
