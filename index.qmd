@@ -5,6 +5,7 @@ format: html
 
 ```{=html}
 <section class="hero-panel">
+	<img src="assets/profile.png" alt="Stanislava Mincheva" class="hero-photo" style="width:160px;height:160px;border-radius:50%;object-fit:cover;object-position:top;margin-bottom:1.2rem;box-shadow:0 2px 12px rgba(0,0,0,0.15);" />
 	<p class="eyebrow">Data science portfolio</p>
 	<h1>Stanislava Valentinova Mincheva</h1>
 	<p class="hero-lead">Final-year Data Science and Society student at Central European University with hands-on experience in Python, SQL, machine learning, and statistical modelling across healthcare and climate datasets.</p>
@@ -46,9 +47,9 @@ format: html
 
 ## Contact
 
-- Email: stanislava.v.m@gmail.com
-- Phone: +43 664 500 2916
+- Email: [stanislava.v.m@gmail.com](mailto:stanislava.v.m@gmail.com)
+- Phone: [+43 664 500 2916](tel:+436645002916)
 - Location: Vienna, Austria
-- LinkedIn: https://www.linkedin.com/in/stanislava-mincheva-ba84b6217/
-- GitHub: https://github.com/StanislavaMincheva12
+- LinkedIn: [linkedin.com/in/stanislava-mincheva-ba84b6217](https://www.linkedin.com/in/stanislava-mincheva-ba84b6217/)
+- GitHub: [github.com/StanislavaMincheva12](https://github.com/StanislavaMincheva12)
 - CV PDF: [Download CV](assets/Stanislava_Mincheva_CV.pdf)

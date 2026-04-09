@@ -48,10 +48,6 @@ Early quantitative modeling project presented to an external examiner panel.
 
 ## Food System Emissions Explorer
 
-An interactive Shiny dashboard based on my DSS notebook analysis of food-system greenhouse gas emissions.
+An interactive Shiny dashboard based on my DSS notebook analysis of food-system greenhouse gas emissions. It uses EDGAR, food-product, and GLEAM datasets to make emissions trends explorable in a web interface.
 
 [View project details →](project1.qmd)
-
-This project demonstrates object-oriented Python design patterns applied to a real analytical dashboard. It uses EDGAR, food-product, and GLEAM datasets to make emissions trends explorable in a web interface.
-
-[View Project Details →](project1.qmd)
