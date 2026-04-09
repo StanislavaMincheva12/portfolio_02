@@ -4,210 +4,210 @@
     "href": "about.html",
     "title": "About",
     "section": "",
-    "text": "I am Stanislava Mincheva, a final-year Data Science and Society student at Central European University based in Vienna. My work combines machine learning, applied statistics, and analytical problem solving across healthcare, business, and climate data.\nI am interested in entry-level roles where strong technical execution matters: data analysis, analytics engineering, and software-adjacent work built around reliable data workflows.\n\n\n\nData analysis in Python, SQL, and MATLAB.\nMachine learning, statistical modelling, time-series analysis, and econometrics.\nVisualization and reporting with Matplotlib, Seaborn, Tableau, and Jupyter.\nPractical tools and workflows including Git, GitHub, SQLite, DBeaver, and LaTeX.\n\n\n\n\nAt CheckCells, I perform statistical validation of AI-based semen analysis models, contribute to data labelling and quality assurance workflows, and support market, sales, and competitor analysis. The work spans technical validation and practical business analysis, which has been a strong training ground for data-driven problem solving.\nBefore that, I worked at Intelektus in a business and product internship role, where I supported market analysis, white paper preparation, software testing, and usability-oriented product work.\n\n\n\n\nB.Sc. in Data Science and Society, Central European University\nExpected June 2026\nGPA: 3.79 / 4.00, Distinction\nCoursework includes Algorithms and Data Structures, Advanced Machine Learning, Intermediate Econometrics, Optimization, Numerical Methods, Data Visualization, Object Oriented Programming, and Data Management\n\n\n\n\n\nCo-author of “AI-driven semen analysis: transforming semen analysis for male infertility diagnostics,” World Journal of Men’s Health, 2025\nDeputy President, Bulgarian Red Cross Youth, 2021\nLed financial strategy and external partnerships for a WWF-awarded autonomous aeroponics farming venture\n\n\n\n\n\nLinkedIn: https://www.linkedin.com/in/stanislava-mincheva-ba84b6217/\nGitHub: https://github.com/StanislavaMincheva12\nORCID: https://orcid.org/0009-0003-1307-2716\nEmail: stanislava.v.m@gmail.com"
+    "text": "I am Stanislava Mincheva, a final-year Data Science and Society student at Central European University based in Vienna. My work combines machine learning, applied statistics, and analytical problem solving across healthcare, business, and climate data.\nI am interested in entry-level roles where strong technical execution matters: data analysis, analytics engineering, and software-adjacent work built around reliable data workflows."
   },
   {
     "objectID": "about.html#what-i-work-on",
     "href": "about.html#what-i-work-on",
     "title": "About",
-    "section": "",
-    "text": "Data analysis in Python, SQL, and MATLAB.\nMachine learning, statistical modelling, time-series analysis, and econometrics.\nVisualization and reporting with Matplotlib, Seaborn, Tableau, and Jupyter.\nPractical tools and workflows including Git, GitHub, SQLite, DBeaver, and LaTeX."
+    "section": "What I Work On",
+    "text": "What I Work On\n\nData analysis in Python, SQL, and MATLAB.\nMachine learning, statistical modelling, time-series analysis, and econometrics.\nVisualization and reporting with Matplotlib, Seaborn, Tableau, and Jupyter.\nPractical tools and workflows including Git, GitHub, SQLite, DBeaver, and LaTeX."
   },
   {
     "objectID": "about.html#recent-experience",
     "href": "about.html#recent-experience",
     "title": "About",
-    "section": "",
-    "text": "At CheckCells, I perform statistical validation of AI-based semen analysis models, contribute to data labelling and quality assurance workflows, and support market, sales, and competitor analysis. The work spans technical validation and practical business analysis, which has been a strong training ground for data-driven problem solving.\nBefore that, I worked at Intelektus in a business and product internship role, where I supported market analysis, white paper preparation, software testing, and usability-oriented product work."
+    "section": "Recent Experience",
+    "text": "Recent Experience\nAt CheckCells, I perform statistical validation of AI-based semen analysis models, contribute to data labelling and quality assurance workflows, and support market, sales, and competitor analysis. The work spans technical validation and practical business analysis, which has been a strong training ground for data-driven problem solving.\nBefore that, I worked at Intelektus in a business and product internship role, where I supported market analysis, white paper preparation, software testing, and usability-oriented product work."
   },
   {
     "objectID": "about.html#education",
     "href": "about.html#education",
     "title": "About",
-    "section": "",
-    "text": "B.Sc. in Data Science and Society, Central European University\nExpected June 2026\nGPA: 3.79 / 4.00, Distinction\nCoursework includes Algorithms and Data Structures, Advanced Machine Learning, Intermediate Econometrics, Optimization, Numerical Methods, Data Visualization, Object Oriented Programming, and Data Management"
+    "section": "Education",
+    "text": "Education\n\nB.Sc. in Data Science and Society, Central European University\nExpected June 2026\nGPA: 3.79 / 4.00, Distinction\nCoursework includes Algorithms and Data Structures, Advanced Machine Learning, Intermediate Econometrics, Optimization, Numerical Methods, Data Visualization, Object Oriented Programming, and Data Management"
   },
   {
     "objectID": "about.html#publication-and-activities",
     "href": "about.html#publication-and-activities",
     "title": "About",
-    "section": "",
-    "text": "Co-author of “AI-driven semen analysis: transforming semen analysis for male infertility diagnostics,” World Journal of Men’s Health, 2025\nDeputy President, Bulgarian Red Cross Youth, 2021\nLed financial strategy and external partnerships for a WWF-awarded autonomous aeroponics farming venture"
+    "section": "Publication and Activities",
+    "text": "Publication and Activities\n\nCo-author of “AI-driven semen analysis: transforming semen analysis for male infertility diagnostics,” World Journal of Men’s Health, 2025\nDeputy President, Bulgarian Red Cross Youth, 2021\nLed financial strategy and external partnerships for a WWF-awarded autonomous aeroponics farming venture"
   },
   {
     "objectID": "about.html#links",
     "href": "about.html#links",
     "title": "About",
-    "section": "",
-    "text": "LinkedIn: https://www.linkedin.com/in/stanislava-mincheva-ba84b6217/\nGitHub: https://github.com/StanislavaMincheva12\nORCID: https://orcid.org/0009-0003-1307-2716\nEmail: stanislava.v.m@gmail.com"
+    "section": "Links",
+    "text": "Links\n\nLinkedIn: linkedin.com/in/stanislava-mincheva-ba84b6217\nGitHub: github.com/StanislavaMincheva12\nORCID: orcid.org/0009-0003-1307-2716\nEmail: stanislava.v.m@gmail.com"
   },
   {
     "objectID": "projects/index.html",
     "href": "projects/index.html",
     "title": "Projects",
     "section": "",
-    "text": "A selection of projects and research threads that reflect my current technical profile.\n\n\nLarge-scale clinical data processing and modelling project built on ICU patient data.\n\nQueried, cleaned, and processed 40,000+ patient records using SQL and Python.\nWorked with missing values and irregular time-series structure.\nBuilt a pathogen alert classification system for clinical safety use cases.\n\n\n\n\nMachine learning project on permanent-magnet synchronous motor performance.\n\nDeveloped CNN and Random Forest models in Python.\nEngineered time-series features for thermal and torque prediction.\nBenchmarked model quality with MAE and RMSE.\n\n\n\n\nTime-series and regression analysis of European emissions and fuel consumption data.\n\nModelled data covering 1990 to 2020.\nApplied regression and ARIMA forecasting.\nImproved out-of-sample accuracy over a linear baseline.\n\n\n\n\nWorked on evaluation workflows for an AI-powered semen analyzer in a healthcare startup environment.\n\nCompared device outputs against reference measurements.\nUsed sensitivity, specificity, and Bland-Altman analysis for agreement assessment.\nSupported FDA regulatory submissions and peer-reviewed publication work.\n\n\n\n\nEarly quantitative modeling project presented to an external examiner panel.\n\nModelled international retail coffee price margins as a stochastic random walk in MATLAB.\nFocused on pricing dynamics and quantitative interpretation.\n\n\n\n\nAn interactive Shiny dashboard based on my DSS notebook analysis of food-system greenhouse gas emissions.\nView project details →\nThis project demonstrates object-oriented Python design patterns applied to a real analytical dashboard. It uses EDGAR, food-product, and GLEAM datasets to make emissions trends explorable in a web interface.\nView Project Details →"
+    "text": "A selection of projects and research threads that reflect my current technical profile."
   },
   {
     "objectID": "projects/index.html#healthcare-analytics-patient-outcome-modelling-mimic-iii",
     "href": "projects/index.html#healthcare-analytics-patient-outcome-modelling-mimic-iii",
     "title": "Projects",
-    "section": "",
-    "text": "Large-scale clinical data processing and modelling project built on ICU patient data.\n\nQueried, cleaned, and processed 40,000+ patient records using SQL and Python.\nWorked with missing values and irregular time-series structure.\nBuilt a pathogen alert classification system for clinical safety use cases."
+    "section": "Healthcare Analytics: Patient Outcome Modelling (MIMIC-III)",
+    "text": "Healthcare Analytics: Patient Outcome Modelling (MIMIC-III)\nLarge-scale clinical data processing and modelling project built on ICU patient data.\n\nQueried, cleaned, and processed 40,000+ patient records using SQL and Python.\nWorked with missing values and irregular time-series structure.\nBuilt a pathogen alert classification system for clinical safety use cases."
   },
   {
     "objectID": "projects/index.html#predicting-pmsm-rotor-temperature-and-torque",
     "href": "projects/index.html#predicting-pmsm-rotor-temperature-and-torque",
     "title": "Projects",
-    "section": "",
-    "text": "Machine learning project on permanent-magnet synchronous motor performance.\n\nDeveloped CNN and Random Forest models in Python.\nEngineered time-series features for thermal and torque prediction.\nBenchmarked model quality with MAE and RMSE."
+    "section": "Predicting PMSM Rotor Temperature and Torque",
+    "text": "Predicting PMSM Rotor Temperature and Torque\nMachine learning project on permanent-magnet synchronous motor performance.\n\nDeveloped CNN and Random Forest models in Python.\nEngineered time-series features for thermal and torque prediction.\nBenchmarked model quality with MAE and RMSE."
   },
   {
     "objectID": "projects/index.html#co2-emissions-and-fuel-use-in-europe",
     "href": "projects/index.html#co2-emissions-and-fuel-use-in-europe",
     "title": "Projects",
-    "section": "",
-    "text": "Time-series and regression analysis of European emissions and fuel consumption data.\n\nModelled data covering 1990 to 2020.\nApplied regression and ARIMA forecasting.\nImproved out-of-sample accuracy over a linear baseline."
+    "section": "CO2 Emissions and Fuel Use in Europe",
+    "text": "CO2 Emissions and Fuel Use in Europe\nTime-series and regression analysis of European emissions and fuel consumption data.\n\nModelled data covering 1990 to 2020.\nApplied regression and ARIMA forecasting.\nImproved out-of-sample accuracy over a linear baseline."
   },
   {
     "objectID": "projects/index.html#ai-healthcare-validation-analysis",
     "href": "projects/index.html#ai-healthcare-validation-analysis",
     "title": "Projects",
-    "section": "",
-    "text": "Worked on evaluation workflows for an AI-powered semen analyzer in a healthcare startup environment.\n\nCompared device outputs against reference measurements.\nUsed sensitivity, specificity, and Bland-Altman analysis for agreement assessment.\nSupported FDA regulatory submissions and peer-reviewed publication work."
+    "section": "AI Healthcare Validation Analysis",
+    "text": "AI Healthcare Validation Analysis\nWorked on evaluation workflows for an AI-powered semen analyzer in a healthcare startup environment.\n\nCompared device outputs against reference measurements.\nUsed sensitivity, specificity, and Bland-Altman analysis for agreement assessment.\nSupported FDA regulatory submissions and peer-reviewed publication work."
   },
   {
     "objectID": "projects/index.html#international-retail-coffee-price-dynamics",
     "href": "projects/index.html#international-retail-coffee-price-dynamics",
     "title": "Projects",
-    "section": "",
-    "text": "Early quantitative modeling project presented to an external examiner panel.\n\nModelled international retail coffee price margins as a stochastic random walk in MATLAB.\nFocused on pricing dynamics and quantitative interpretation."
+    "section": "International Retail Coffee Price Dynamics",
+    "text": "International Retail Coffee Price Dynamics\nEarly quantitative modeling project presented to an external examiner panel.\n\nModelled international retail coffee price margins as a stochastic random walk in MATLAB.\nFocused on pricing dynamics and quantitative interpretation."
   },
   {
     "objectID": "projects/index.html#food-system-emissions-explorer",
     "href": "projects/index.html#food-system-emissions-explorer",
     "title": "Projects",
-    "section": "",
-    "text": "An interactive Shiny dashboard based on my DSS notebook analysis of food-system greenhouse gas emissions.\nView project details →\nThis project demonstrates object-oriented Python design patterns applied to a real analytical dashboard. It uses EDGAR, food-product, and GLEAM datasets to make emissions trends explorable in a web interface.\nView Project Details →"
+    "section": "Food System Emissions Explorer",
+    "text": "Food System Emissions Explorer\nAn interactive Shiny dashboard based on my DSS notebook analysis of food-system greenhouse gas emissions. It uses EDGAR, food-product, and GLEAM datasets to make emissions trends explorable in a web interface.\nView project details →"
   },
   {
     "objectID": "projects/resume.html",
     "href": "projects/resume.html",
     "title": "Resume & Contact",
     "section": "",
-    "text": "Final-year Data Science student focused on analytics, machine learning, and applied statistical modelling\n\nEmail: stanislava.v.m@gmail.com\nPhone: +43 664 500 2916\nLocation: Vienna, Austria\nLinkedIn: https://www.linkedin.com/in/stanislava-mincheva-ba84b6217/\nGitHub: https://github.com/StanislavaMincheva12\nORCID: https://orcid.org/0009-0003-1307-2716\nCV PDF: Download CV\n\n\n\nFinal-year Data Science student with experience in Python, SQL, machine learning, and statistical modelling across healthcare and climate datasets. Built predictive models, conducted statistical validation for AI diagnostic systems contributing to FDA regulatory submissions, and co-authored a peer-reviewed publication. Seeking an entry-level data analyst or software engineering role focused on data-driven problem solving and analytics.\n\n\n\n\nProgramming: Python, SQL, MATLAB\nData science: Machine Learning, Statistical Modelling, Time-Series Analysis, Econometrics, Data Visualization, Data Management\nLibraries and tools: pandas, NumPy, SciPy, scikit-learn, TensorFlow, Matplotlib, Seaborn, Tableau, Jupyter, Git/GitHub, SQLite, DBeaver, LaTeX\nLanguages: Bulgarian (native), English (fluent), Russian (conversational)\n\n\n\n\n\nB.Sc. in Data Science and Society, Central European University, Vienna\nExpected June 2026\nGPA: 3.79 / 4.00, Distinction\nSelected coursework: Algorithms and Data Structures, Advanced Machine Learning, Advanced Probability and Statistics, Intermediate Econometrics, Optimization, Numerical Methods, Data Visualization, Mathematics for AI, Object Oriented Programming, Data Analysis, Data Management\n\n\n\n\n\n“AI-driven semen analysis: transforming semen analysis for male infertility diagnostics,” World Journal of Men’s Health, 2025\nCo-authored with Prof. Ashok Agarwal\n\n\n\n\n\n\nData and Strategy Intern | Jan 2025 - Present\n\nPerformed statistical validation of AI-based semen analysis models, including sensitivity, specificity, and Bland-Altman analysis.\nSupported 2 FDA regulatory submissions and 2 peer-reviewed publications.\nCo-authored peer-reviewed editorial work on AI-driven semen analysis with Prof. Ashok Agarwal.\nConducted data labelling and quality assurance for microbiology and semen sample datasets used in machine learning workflows.\nAnalysed outreach and sales data to track response and conversion rates and inform targeting strategy.\nConducted market and competitor analysis on AI diagnostics and clinical laboratory automation.\n\n\n\n\nBusiness and Product Intern | Jul 2020 - Sep 2020\n\nConducted exploratory market analysis and prepared a white paper supporting early-stage product development.\nAssisted with software testing and user-flow analysis to improve product usability.\nContributed research insights to investor presentation materials.\n\n\n\n\n\n\n\n\nQueried, cleaned, and processed large-scale ICU clinical data with 40,000+ patient records using SQL and Python.\nHandled missing values and irregular time-series structure.\nBuilt a pathogen alert classification system for clinical safety.\n\n\n\n\n\nDeveloped CNN and Random Forest models in Python to predict temperature and torque in permanent-magnet synchronous motors.\nEngineered time-series features and benchmarked models using MAE and RMSE.\n\n\n\n\n\nAnalysed EU emissions and fuel consumption data from 1990 to 2020 using regression and time-series modelling.\nApplied ARIMA models to forecast emissions trends, assess policy impact, and outperform a linear baseline on out-of-sample accuracy.\n\n\n\n\n\nModelled international retail coffee price margins as a stochastic random walk using MATLAB.\nPresented findings to an external examiner panel.\n\n\n\n\n\n\n\n\nOrganised volunteer initiatives supporting local communities and collaborated with international youth organisations.\n\n\n\n\n\nLed financial strategy and external partnerships for a WWF-awarded autonomous aeroponics venture.\n\n\n\n\n\n\n1st Place, WWF Innovation Accelerator Programme, 2021\nSecured seed funding for an autonomous aeroponics vertical farming concept.\n\n\n\n\nIf you’d like to reach me directly, use one of the contact links below.\n\n  Email Me\n  LinkedIn\n  GitHub"
+    "text": "Final-year Data Science student focused on analytics, machine learning, and applied statistical modelling"
   },
   {
     "objectID": "projects/resume.html#summary",
     "href": "projects/resume.html#summary",
     "title": "Resume & Contact",
-    "section": "",
-    "text": "Final-year Data Science student with experience in Python, SQL, machine learning, and statistical modelling across healthcare and climate datasets. Built predictive models, conducted statistical validation for AI diagnostic systems contributing to FDA regulatory submissions, and co-authored a peer-reviewed publication. Seeking an entry-level data analyst or software engineering role focused on data-driven problem solving and analytics."
+    "section": "Summary",
+    "text": "Summary\nFinal-year Data Science student with experience in Python, SQL, machine learning, and statistical modelling across healthcare and climate datasets. Built predictive models, conducted statistical validation for AI diagnostic systems contributing to FDA regulatory submissions, and co-authored a peer-reviewed publication. Seeking an entry-level data analyst or software engineering role focused on data-driven problem solving and analytics."
   },
   {
     "objectID": "projects/resume.html#skills",
     "href": "projects/resume.html#skills",
     "title": "Resume & Contact",
-    "section": "",
-    "text": "Programming: Python, SQL, MATLAB\nData science: Machine Learning, Statistical Modelling, Time-Series Analysis, Econometrics, Data Visualization, Data Management\nLibraries and tools: pandas, NumPy, SciPy, scikit-learn, TensorFlow, Matplotlib, Seaborn, Tableau, Jupyter, Git/GitHub, SQLite, DBeaver, LaTeX\nLanguages: Bulgarian (native), English (fluent), Russian (conversational)"
+    "section": "Skills",
+    "text": "Skills\n\nProgramming: Python, SQL, MATLAB\nData science: Machine Learning, Statistical Modelling, Time-Series Analysis, Econometrics, Data Visualization, Data Management\nLibraries and tools: pandas, NumPy, SciPy, scikit-learn, TensorFlow, Matplotlib, Seaborn, Tableau, Jupyter, Git/GitHub, SQLite, DBeaver, LaTeX\nLanguages: Bulgarian (native), English (fluent), Russian (conversational)"
   },
   {
     "objectID": "projects/resume.html#education",
     "href": "projects/resume.html#education",
     "title": "Resume & Contact",
-    "section": "",
-    "text": "B.Sc. in Data Science and Society, Central European University, Vienna\nExpected June 2026\nGPA: 3.79 / 4.00, Distinction\nSelected coursework: Algorithms and Data Structures, Advanced Machine Learning, Advanced Probability and Statistics, Intermediate Econometrics, Optimization, Numerical Methods, Data Visualization, Mathematics for AI, Object Oriented Programming, Data Analysis, Data Management"
+    "section": "Education",
+    "text": "Education\n\nB.Sc. in Data Science and Society, Central European University, Vienna\nExpected June 2026\nGPA: 3.79 / 4.00, Distinction\nSelected coursework: Algorithms and Data Structures, Advanced Machine Learning, Advanced Probability and Statistics, Intermediate Econometrics, Optimization, Numerical Methods, Data Visualization, Mathematics for AI, Object Oriented Programming, Data Analysis, Data Management"
   },
   {
     "objectID": "projects/resume.html#publication",
     "href": "projects/resume.html#publication",
     "title": "Resume & Contact",
-    "section": "",
-    "text": "“AI-driven semen analysis: transforming semen analysis for male infertility diagnostics,” World Journal of Men’s Health, 2025\nCo-authored with Prof. Ashok Agarwal"
+    "section": "Publication",
+    "text": "Publication\n\n“AI-driven semen analysis: transforming semen analysis for male infertility diagnostics,” World Journal of Men’s Health, 2025\nCo-authored with Prof. Ashok Agarwal"
   },
   {
     "objectID": "projects/resume.html#experience",
     "href": "projects/resume.html#experience",
     "title": "Resume & Contact",
-    "section": "",
-    "text": "Data and Strategy Intern | Jan 2025 - Present\n\nPerformed statistical validation of AI-based semen analysis models, including sensitivity, specificity, and Bland-Altman analysis.\nSupported 2 FDA regulatory submissions and 2 peer-reviewed publications.\nCo-authored peer-reviewed editorial work on AI-driven semen analysis with Prof. Ashok Agarwal.\nConducted data labelling and quality assurance for microbiology and semen sample datasets used in machine learning workflows.\nAnalysed outreach and sales data to track response and conversion rates and inform targeting strategy.\nConducted market and competitor analysis on AI diagnostics and clinical laboratory automation.\n\n\n\n\nBusiness and Product Intern | Jul 2020 - Sep 2020\n\nConducted exploratory market analysis and prepared a white paper supporting early-stage product development.\nAssisted with software testing and user-flow analysis to improve product usability.\nContributed research insights to investor presentation materials."
+    "section": "Experience",
+    "text": "Experience\n\nCheckCells, Los Angeles, US\nData and Strategy Intern | Jan 2025 - Present\n\nPerformed statistical validation of AI-based semen analysis models, including sensitivity, specificity, and Bland-Altman analysis.\nSupported 2 FDA regulatory submissions and 2 peer-reviewed publications.\nCo-authored peer-reviewed editorial work on AI-driven semen analysis with Prof. Ashok Agarwal.\nConducted data labelling and quality assurance for microbiology and semen sample datasets used in machine learning workflows.\nAnalysed outreach and sales data to track response and conversion rates and inform targeting strategy.\nConducted market and competitor analysis on AI diagnostics and clinical laboratory automation.\n\n\n\nIntelektus, Los Angeles, US\nBusiness and Product Intern | Jul 2020 - Sep 2020\n\nConducted exploratory market analysis and prepared a white paper supporting early-stage product development.\nAssisted with software testing and user-flow analysis to improve product usability.\nContributed research insights to investor presentation materials."
   },
   {
     "objectID": "projects/resume.html#projects",
     "href": "projects/resume.html#projects",
     "title": "Resume & Contact",
-    "section": "",
-    "text": "Queried, cleaned, and processed large-scale ICU clinical data with 40,000+ patient records using SQL and Python.\nHandled missing values and irregular time-series structure.\nBuilt a pathogen alert classification system for clinical safety.\n\n\n\n\n\nDeveloped CNN and Random Forest models in Python to predict temperature and torque in permanent-magnet synchronous motors.\nEngineered time-series features and benchmarked models using MAE and RMSE.\n\n\n\n\n\nAnalysed EU emissions and fuel consumption data from 1990 to 2020 using regression and time-series modelling.\nApplied ARIMA models to forecast emissions trends, assess policy impact, and outperform a linear baseline on out-of-sample accuracy.\n\n\n\n\n\nModelled international retail coffee price margins as a stochastic random walk using MATLAB.\nPresented findings to an external examiner panel."
+    "section": "Projects",
+    "text": "Projects\n\nHealthcare Analytics: Patient Outcome Modelling (MIMIC-III)\n\nQueried, cleaned, and processed large-scale ICU clinical data with 40,000+ patient records using SQL and Python.\nHandled missing values and irregular time-series structure.\nBuilt a pathogen alert classification system for clinical safety.\n\n\n\nPredicting PMSM Rotor Temperature and Torque\n\nDeveloped CNN and Random Forest models in Python to predict temperature and torque in permanent-magnet synchronous motors.\nEngineered time-series features and benchmarked models using MAE and RMSE.\n\n\n\nCO2 Emissions and Fuel Use in Europe (ARIMA Analysis)\n\nAnalysed EU emissions and fuel consumption data from 1990 to 2020 using regression and time-series modelling.\nApplied ARIMA models to forecast emissions trends, assess policy impact, and outperform a linear baseline on out-of-sample accuracy.\n\n\n\nInternational Retail Coffee Price Dynamics\n\nModelled international retail coffee price margins as a stochastic random walk using MATLAB.\nPresented findings to an external examiner panel."
   },
   {
     "objectID": "projects/resume.html#leadership-and-activities",
     "href": "projects/resume.html#leadership-and-activities",
     "title": "Resume & Contact",
-    "section": "",
-    "text": "Organised volunteer initiatives supporting local communities and collaborated with international youth organisations.\n\n\n\n\n\nLed financial strategy and external partnerships for a WWF-awarded autonomous aeroponics venture."
+    "section": "Leadership and Activities",
+    "text": "Leadership and Activities\n\nDeputy President, Bulgarian Red Cross Youth\n\nOrganised volunteer initiatives supporting local communities and collaborated with international youth organisations.\n\n\n\nStudent Startup: Autonomous Aeroponics Farming System\n\nLed financial strategy and external partnerships for a WWF-awarded autonomous aeroponics venture."
   },
   {
     "objectID": "projects/resume.html#awards",
     "href": "projects/resume.html#awards",
     "title": "Resume & Contact",
-    "section": "",
-    "text": "1st Place, WWF Innovation Accelerator Programme, 2021\nSecured seed funding for an autonomous aeroponics vertical farming concept."
+    "section": "Awards",
+    "text": "Awards\n\n1st Place, WWF Innovation Accelerator Programme, 2021\nSecured seed funding for an autonomous aeroponics vertical farming concept."
   },
   {
     "objectID": "projects/resume.html#contact-hire-me",
     "href": "projects/resume.html#contact-hire-me",
     "title": "Resume & Contact",
-    "section": "",
-    "text": "If you’d like to reach me directly, use one of the contact links below.\n\n  Email Me\n  LinkedIn\n  GitHub"
+    "section": "Contact / Hire Me",
+    "text": "Contact / Hire Me\nIf you’d like to reach me directly, use one of the contact links below.\n\n  Email Me\n  LinkedIn\n  GitHub"
   },
   {
     "objectID": "projects/project1.html",
     "href": "projects/project1.html",
     "title": "Food System Emissions Explorer",
     "section": "",
-    "text": "An interactive Shiny for Python application built from the same datasets and analysis pipeline used in the DSS notebook project on food-system greenhouse gas emissions.\n\n\nThis app turns the notebook analysis into a portfolio-ready interactive dashboard. It combines three datasets:\n\nEDGARfood.csv for country-level emissions over time\nFood_Product_Emissions.csv for food-product emissions across the supply chain\nGLEAM_LivestockEmissions.csv for regional livestock emissions by gas type\n\nThe dashboard lets visitors explore long-run global trends, regional patterns, top-emitting countries, and the highest-emission food products without reading through the full notebook.\n\n\n\nThis project reflects the Data Science and Society portfolio brief closely:\n\nThe website shell is built with Quarto and published as a static site.\nThe interactive component is built with Shiny for Python.\nThe app code uses object-oriented components to separate loading, analysis, visualization, and UI concerns.\nThe dashboard showcases a real data science project rather than sample data.\n\n\n\n\nInteract with the live Shiny application below:\n\n\n\n\n\nGlobal trend view: Explore total food-system emissions from 1990 to 2015.\nRegional trend view: Compare regions or focus on a single region such as Asia.\nTop-emitter country view: See the highest-emitting country within the chosen region over time.\nFood-product ranking: Inspect which products contribute most from land to retail.\nGLEAM livestock overview: Compare CO2, CH4, and N2O emissions across regions.\nData preview: Inspect the cleaned EDGAR data used in the app.\n\n\n\n\nTo run this application on your machine:\n# Install app dependencies\npip install -r projects/data/requirements.txt\n\n# Start the Shiny app\ncd projects/data\n../../.venv/bin/python -m shiny run app.py --port 8000\nThen visit http://127.0.0.1:8000 in your browser.\n\n\n\nTechnology Stack: - Python - Shiny for Python - Pandas for data manipulation - Plotly for interactive visualizations - pycountry-convert for country-to-region mapping\nData direction: this dashboard is derived from the DSS notebook analysis on food-system emissions, forecasting, and regional comparisons."
+    "text": "An interactive Shiny for Python application built from the same datasets and analysis pipeline used in the DSS notebook project on food-system greenhouse gas emissions."
   },
   {
     "objectID": "projects/project1.html#project-focus",
     "href": "projects/project1.html#project-focus",
     "title": "Food System Emissions Explorer",
-    "section": "",
-    "text": "This app turns the notebook analysis into a portfolio-ready interactive dashboard. It combines three datasets:\n\nEDGARfood.csv for country-level emissions over time\nFood_Product_Emissions.csv for food-product emissions across the supply chain\nGLEAM_LivestockEmissions.csv for regional livestock emissions by gas type\n\nThe dashboard lets visitors explore long-run global trends, regional patterns, top-emitting countries, and the highest-emission food products without reading through the full notebook."
+    "section": "Project Focus",
+    "text": "Project Focus\nThis app turns the notebook analysis into a portfolio-ready interactive dashboard. It combines three datasets:\n\nEDGARfood.csv for country-level emissions over time\nFood_Product_Emissions.csv for food-product emissions across the supply chain\nGLEAM_LivestockEmissions.csv for regional livestock emissions by gas type\n\nThe dashboard lets visitors explore long-run global trends, regional patterns, top-emitting countries, and the highest-emission food products without reading through the full notebook."
   },
   {
     "objectID": "projects/project1.html#why-this-fits-the-portfolio",
     "href": "projects/project1.html#why-this-fits-the-portfolio",
     "title": "Food System Emissions Explorer",
-    "section": "",
-    "text": "This project reflects the Data Science and Society portfolio brief closely:\n\nThe website shell is built with Quarto and published as a static site.\nThe interactive component is built with Shiny for Python.\nThe app code uses object-oriented components to separate loading, analysis, visualization, and UI concerns.\nThe dashboard showcases a real data science project rather than sample data."
+    "section": "Why This Fits The Portfolio",
+    "text": "Why This Fits The Portfolio\nThis project reflects the Data Science and Society portfolio brief closely:\n\nThe website shell is built with Quarto and published as a static site.\nThe interactive component is built with Shiny for Python.\nThe app code uses object-oriented components to separate loading, analysis, visualization, and UI concerns.\nThe dashboard showcases a real data science project rather than sample data."
   },
   {
     "objectID": "projects/project1.html#interactive-demo",
     "href": "projects/project1.html#interactive-demo",
     "title": "Food System Emissions Explorer",
-    "section": "",
-    "text": "Interact with the live Shiny application below:"
+    "section": "Interactive Demo",
+    "text": "Interactive Demo\nInteract with the live Shiny application below:\n\n  The interactive dashboard opens in a new tab.\n  🚀 Launch Interactive Demo"
   },
   {
     "objectID": "projects/project1.html#features",
     "href": "projects/project1.html#features",
     "title": "Food System Emissions Explorer",
-    "section": "",
-    "text": "Global trend view: Explore total food-system emissions from 1990 to 2015.\nRegional trend view: Compare regions or focus on a single region such as Asia.\nTop-emitter country view: See the highest-emitting country within the chosen region over time.\nFood-product ranking: Inspect which products contribute most from land to retail.\nGLEAM livestock overview: Compare CO2, CH4, and N2O emissions across regions.\nData preview: Inspect the cleaned EDGAR data used in the app."
+    "section": "Features",
+    "text": "Features\n\nGlobal trend view: Explore total food-system emissions from 1990 to 2015.\nRegional trend view: Compare regions or focus on a single region such as Asia.\nTop-emitter country view: See the highest-emitting country within the chosen region over time.\nFood-product ranking: Inspect which products contribute most from land to retail.\nGLEAM livestock overview: Compare CO2, CH4, and N2O emissions across regions.\nData preview: Inspect the cleaned EDGAR data used in the app."
   },
   {
     "objectID": "projects/project1.html#running-the-app-locally",
     "href": "projects/project1.html#running-the-app-locally",
     "title": "Food System Emissions Explorer",
-    "section": "",
-    "text": "To run this application on your machine:\n# Install app dependencies\npip install -r projects/data/requirements.txt\n\n# Start the Shiny app\ncd projects/data\n../../.venv/bin/python -m shiny run app.py --port 8000\nThen visit http://127.0.0.1:8000 in your browser."
+    "section": "Running the App Locally",
+    "text": "Running the App Locally\nTo run this application on your machine:\n# Install app dependencies\npip install -r projects/data/requirements.txt\n\n# Start the Shiny app\ncd projects/data\n../../.venv/bin/python -m shiny run app.py --port 8000\nThen visit http://127.0.0.1:8000 in your browser."
   },
   {
     "objectID": "projects/project1.html#project-details",
     "href": "projects/project1.html#project-details",
     "title": "Food System Emissions Explorer",
-    "section": "",
-    "text": "Technology Stack: - Python - Shiny for Python - Pandas for data manipulation - Plotly for interactive visualizations - pycountry-convert for country-to-region mapping\nData direction: this dashboard is derived from the DSS notebook analysis on food-system emissions, forecasting, and regional comparisons."
+    "section": "Project Details",
+    "text": "Project Details\nTechnology Stack: - Python - Shiny for Python - Pandas for data manipulation - Plotly for interactive visualizations - pycountry-convert for country-to-region mapping\nData direction: this dashboard is derived from the DSS notebook analysis on food-system emissions, forecasting, and regional comparisons."
   },
   {
     "objectID": "index.html",
@@ -235,6 +235,6 @@
     "href": "index.html#contact",
     "title": "Home",
     "section": "Contact",
-    "text": "Contact\n\nEmail: stanislava.v.m@gmail.com\nPhone: +43 664 500 2916\nLocation: Vienna, Austria\nLinkedIn: https://www.linkedin.com/in/stanislava-mincheva-ba84b6217/\nGitHub: https://github.com/StanislavaMincheva12\nCV PDF: Download CV"
+    "text": "Contact\n\nEmail: stanislava.v.m@gmail.com\nPhone: +43 664 500 2916\nLocation: Vienna, Austria\nLinkedIn: linkedin.com/in/stanislava-mincheva-ba84b6217\nGitHub: github.com/StanislavaMincheva12\nCV PDF: Download CV"
   }
 ]
