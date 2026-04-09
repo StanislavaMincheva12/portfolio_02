@@ -3,8 +3,6 @@ title: "Food System Emissions Explorer"
 format: html
 ---
 
-# Food System Emissions Explorer
-
 An interactive Shiny for Python application built from the same datasets and analysis pipeline used in the DSS notebook project on food-system greenhouse gas emissions.
 
 ## Project Focus

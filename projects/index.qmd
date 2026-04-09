@@ -3,8 +3,6 @@ title: "Projects"
 format: html
 ---
 
-# Projects
-
 A selection of projects and research threads that reflect my current technical profile.
 
 ## Healthcare Analytics: Patient Outcome Modelling (MIMIC-III)

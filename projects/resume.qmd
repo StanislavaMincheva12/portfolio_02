@@ -3,8 +3,6 @@ title: "Resume & Contact"
 format: html
 ---
 
-# Stanislava Valentinova Mincheva
-
 **Final-year Data Science student focused on analytics, machine learning, and applied statistical modelling**
 
 - Email: stanislava.v.m@gmail.com

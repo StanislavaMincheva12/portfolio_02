@@ -3,8 +3,6 @@ title: "About"
 format: html
 ---
 
-# About Me
-
 I am Stanislava Mincheva, a final-year Data Science and Society student at Central European University based in Vienna. My work combines machine learning, applied statistics, and analytical problem solving across healthcare, business, and climate data.
 
 I am interested in entry-level roles where strong technical execution matters: data analysis, analytics engineering, and software-adjacent work built around reliable data workflows.
