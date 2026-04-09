@@ -5,12 +5,12 @@ format: html
 
 **Final-year Data Science student focused on analytics, machine learning, and applied statistical modelling**
 
-- Email: stanislava.v.m@gmail.com
-- Phone: +43 664 500 2916
+- Email: [stanislava.v.m@gmail.com](mailto:stanislava.v.m@gmail.com)
+- Phone: [+43 664 500 2916](tel:+436645002916)
 - Location: Vienna, Austria
-- LinkedIn: https://www.linkedin.com/in/stanislava-mincheva-ba84b6217/
-- GitHub: https://github.com/StanislavaMincheva12
-- ORCID: https://orcid.org/0009-0003-1307-2716
+- LinkedIn: [linkedin.com/in/stanislava-mincheva-ba84b6217](https://www.linkedin.com/in/stanislava-mincheva-ba84b6217/)
+- GitHub: [github.com/StanislavaMincheva12](https://github.com/StanislavaMincheva12)
+- ORCID: [orcid.org/0009-0003-1307-2716](https://orcid.org/0009-0003-1307-2716)
 - CV PDF: [Download CV](../assets/Stanislava_Mincheva_CV.pdf)
 
 ## Summary
