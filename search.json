@@ -91,6 +91,62 @@
     "text": "Food System Emissions Explorer\nAn interactive Shiny dashboard based on my DSS notebook analysis of food-system greenhouse gas emissions. It uses EDGAR, food-product, and GLEAM datasets to make emissions trends explorable in a web interface.\nView project details →"
   },
   {
+    "objectID": "projects/index.html#mimic-iii-pathogen-alert-dashboard",
+    "href": "projects/index.html#mimic-iii-pathogen-alert-dashboard",
+    "title": "Projects",
+    "section": "MIMIC-III Pathogen Alert Dashboard",
+    "text": "MIMIC-III Pathogen Alert Dashboard\nAn interactive Shiny dashboard built on the OOP hospital alert pipeline. Processes ICU microbiology events from the MIMIC-III dataset to visualise pathogen alerts, ward heatmaps, and severity breakdowns.\nView project details →"
+  },
+  {
+    "objectID": "projects/project1.html",
+    "href": "projects/project1.html",
+    "title": "Food System Emissions Explorer",
+    "section": "",
+    "text": "An interactive Shiny for Python application built from the same datasets and analysis pipeline used in the DSS notebook project on food-system greenhouse gas emissions."
+  },
+  {
+    "objectID": "projects/project1.html#project-focus",
+    "href": "projects/project1.html#project-focus",
+    "title": "Food System Emissions Explorer",
+    "section": "Project Focus",
+    "text": "Project Focus\nThis app turns the notebook analysis into a portfolio-ready interactive dashboard. It combines three datasets:\n\nEDGARfood.csv for country-level emissions over time\nFood_Product_Emissions.csv for food-product emissions across the supply chain\nGLEAM_LivestockEmissions.csv for regional livestock emissions by gas type\n\nThe dashboard lets visitors explore long-run global trends, regional patterns, top-emitting countries, and the highest-emission food products without reading through the full notebook."
+  },
+  {
+    "objectID": "projects/project1.html#why-this-fits-the-portfolio",
+    "href": "projects/project1.html#why-this-fits-the-portfolio",
+    "title": "Food System Emissions Explorer",
+    "section": "Why This Fits The Portfolio",
+    "text": "Why This Fits The Portfolio\nThis project reflects the Data Science and Society portfolio brief closely:\n\nThe website shell is built with Quarto and published as a static site.\nThe interactive component is built with Shiny for Python.\nThe app code uses object-oriented components to separate loading, analysis, visualization, and UI concerns.\nThe dashboard showcases a real data science project rather than sample data."
+  },
+  {
+    "objectID": "projects/project1.html#interactive-demo",
+    "href": "projects/project1.html#interactive-demo",
+    "title": "Food System Emissions Explorer",
+    "section": "Interactive Demo",
+    "text": "Interactive Demo\nInteract with the live Shiny application below:\n\n  The interactive dashboard opens in a new tab.\n  🚀 Launch Interactive Demo"
+  },
+  {
+    "objectID": "projects/project1.html#features",
+    "href": "projects/project1.html#features",
+    "title": "Food System Emissions Explorer",
+    "section": "Features",
+    "text": "Features\n\nGlobal trend view: Explore total food-system emissions from 1990 to 2015.\nRegional trend view: Compare regions or focus on a single region such as Asia.\nTop-emitter country view: See the highest-emitting country within the chosen region over time.\nFood-product ranking: Inspect which products contribute most from land to retail.\nGLEAM livestock overview: Compare CO2, CH4, and N2O emissions across regions.\nData preview: Inspect the cleaned EDGAR data used in the app."
+  },
+  {
+    "objectID": "projects/project1.html#running-the-app-locally",
+    "href": "projects/project1.html#running-the-app-locally",
+    "title": "Food System Emissions Explorer",
+    "section": "Running the App Locally",
+    "text": "Running the App Locally\nTo run this application on your machine:\n# Install app dependencies\npip install -r projects/data/requirements.txt\n\n# Start the Shiny app\ncd projects/data\n../../.venv/bin/python -m shiny run app.py --port 8000\nThen visit http://127.0.0.1:8000 in your browser."
+  },
+  {
+    "objectID": "projects/project1.html#project-details",
+    "href": "projects/project1.html#project-details",
+    "title": "Food System Emissions Explorer",
+    "section": "Project Details",
+    "text": "Project Details\nTechnology Stack: - Python - Shiny for Python - Pandas for data manipulation - Plotly for interactive visualizations - pycountry-convert for country-to-region mapping\nData direction: this dashboard is derived from the DSS notebook analysis on food-system emissions, forecasting, and regional comparisons."
+  },
+  {
     "objectID": "projects/resume.html",
     "href": "projects/resume.html",
     "title": "Resume & Contact",
@@ -161,53 +217,53 @@
     "text": "Contact / Hire Me\nIf you’d like to reach me directly, use one of the contact links below.\n\n  Email Me\n  LinkedIn\n  GitHub"
   },
   {
-    "objectID": "projects/project1.html",
-    "href": "projects/project1.html",
-    "title": "Food System Emissions Explorer",
+    "objectID": "projects/project2.html",
+    "href": "projects/project2.html",
+    "title": "MIMIC-III Pathogen Alert Dashboard",
     "section": "",
-    "text": "An interactive Shiny for Python application built from the same datasets and analysis pipeline used in the DSS notebook project on food-system greenhouse gas emissions."
+    "text": "An interactive Shiny dashboard built on top of the OOP hospital alert system project, using real ICU microbiology data from the MIMIC-III clinical database."
   },
   {
-    "objectID": "projects/project1.html#project-focus",
-    "href": "projects/project1.html#project-focus",
-    "title": "Food System Emissions Explorer",
+    "objectID": "projects/project2.html#project-focus",
+    "href": "projects/project2.html#project-focus",
+    "title": "MIMIC-III Pathogen Alert Dashboard",
     "section": "Project Focus",
-    "text": "Project Focus\nThis app turns the notebook analysis into a portfolio-ready interactive dashboard. It combines three datasets:\n\nEDGARfood.csv for country-level emissions over time\nFood_Product_Emissions.csv for food-product emissions across the supply chain\nGLEAM_LivestockEmissions.csv for regional livestock emissions by gas type\n\nThe dashboard lets visitors explore long-run global trends, regional patterns, top-emitting countries, and the highest-emission food products without reading through the full notebook."
+    "text": "Project Focus\nThis dashboard turns an object-oriented Python pipeline into a portfolio-ready interactive tool. It processes microbiology events from the MIMIC-III dataset to detect when pathogen counts in a ward exceed safety thresholds, generating structured clinical alerts.\nData source: MIMIC-III (Medical Information Mart for Intensive Care), a publicly available ICU database containing de-identified health data from over 40,000 patients.\nKey datasets used: - MICROBIOLOGYEVENTS — lab culture results with organism identifications - PATIENTS, ADMISSIONS, ICUSTAYS — patient stay and demographic context - TRANSFERS — ward assignment history"
   },
   {
-    "objectID": "projects/project1.html#why-this-fits-the-portfolio",
-    "href": "projects/project1.html#why-this-fits-the-portfolio",
-    "title": "Food System Emissions Explorer",
+    "objectID": "projects/project2.html#why-this-fits-the-portfolio",
+    "href": "projects/project2.html#why-this-fits-the-portfolio",
+    "title": "MIMIC-III Pathogen Alert Dashboard",
     "section": "Why This Fits The Portfolio",
-    "text": "Why This Fits The Portfolio\nThis project reflects the Data Science and Society portfolio brief closely:\n\nThe website shell is built with Quarto and published as a static site.\nThe interactive component is built with Shiny for Python.\nThe app code uses object-oriented components to separate loading, analysis, visualization, and UI concerns.\nThe dashboard showcases a real data science project rather than sample data."
+    "text": "Why This Fits The Portfolio\n\nThe pipeline uses OOP design: abstract loaders, a domain repository, an analyzer, a visualizer, and a UI builder — all separated by responsibility.\nThe alert logic is threshold-based: each pathogen has a configurable danger weight, time window, and ward-size-adjusted threshold.\nThe Shiny dashboard makes the alert output explorable without running the full pipeline locally."
   },
   {
-    "objectID": "projects/project1.html#interactive-demo",
-    "href": "projects/project1.html#interactive-demo",
-    "title": "Food System Emissions Explorer",
+    "objectID": "projects/project2.html#interactive-demo",
+    "href": "projects/project2.html#interactive-demo",
+    "title": "MIMIC-III Pathogen Alert Dashboard",
     "section": "Interactive Demo",
-    "text": "Interactive Demo\nInteract with the live Shiny application below:\n\n  The interactive dashboard opens in a new tab.\n  🚀 Launch Interactive Demo"
+    "text": "Interactive Demo\n\n  The interactive dashboard opens in a new tab.\n  🚀 Launch Interactive Demo\n  (Deploy the app to Posit Connect and update the link above)"
   },
   {
-    "objectID": "projects/project1.html#features",
-    "href": "projects/project1.html#features",
-    "title": "Food System Emissions Explorer",
+    "objectID": "projects/project2.html#features",
+    "href": "projects/project2.html#features",
+    "title": "MIMIC-III Pathogen Alert Dashboard",
     "section": "Features",
-    "text": "Features\n\nGlobal trend view: Explore total food-system emissions from 1990 to 2015.\nRegional trend view: Compare regions or focus on a single region such as Asia.\nTop-emitter country view: See the highest-emitting country within the chosen region over time.\nFood-product ranking: Inspect which products contribute most from land to retail.\nGLEAM livestock overview: Compare CO2, CH4, and N2O emissions across regions.\nData preview: Inspect the cleaned EDGAR data used in the app."
+    "text": "Features\n\nAlerts by Ward — which wards raised the most alerts.\nTop Pathogens — configurable ranking of organisms by alert frequency.\nSeverity Split — HIGH / MEDIUM / LOW breakdown using a RAG colour system.\nAlert Timeline — cumulative alerts over time, filterable by ward.\nPathogen × Ward Heatmap — cross-tabulation of organism presence across wards.\nData Table — full filtered alert table with risk labels."
   },
   {
-    "objectID": "projects/project1.html#running-the-app-locally",
-    "href": "projects/project1.html#running-the-app-locally",
-    "title": "Food System Emissions Explorer",
+    "objectID": "projects/project2.html#running-the-app-locally",
+    "href": "projects/project2.html#running-the-app-locally",
+    "title": "MIMIC-III Pathogen Alert Dashboard",
     "section": "Running the App Locally",
-    "text": "Running the App Locally\nTo run this application on your machine:\n# Install app dependencies\npip install -r projects/data/requirements.txt\n\n# Start the Shiny app\ncd projects/data\n../../.venv/bin/python -m shiny run app.py --port 8000\nThen visit http://127.0.0.1:8000 in your browser."
+    "text": "Running the App Locally\n# Install dependencies\npip install -r projects/mimic/requirements.txt\n\n# Start the Shiny app\ncd projects/mimic\npython -m shiny run app.py --port 8001\nThen visit http://127.0.0.1:8001 in your browser."
   },
   {
-    "objectID": "projects/project1.html#project-details",
-    "href": "projects/project1.html#project-details",
-    "title": "Food System Emissions Explorer",
+    "objectID": "projects/project2.html#project-details",
+    "href": "projects/project2.html#project-details",
+    "title": "MIMIC-III Pathogen Alert Dashboard",
     "section": "Project Details",
-    "text": "Project Details\nTechnology Stack: - Python - Shiny for Python - Pandas for data manipulation - Plotly for interactive visualizations - pycountry-convert for country-to-region mapping\nData direction: this dashboard is derived from the DSS notebook analysis on food-system emissions, forecasting, and regional comparisons."
+    "text": "Project Details\nTechnology Stack: - Python - Shiny for Python - Pandas for data processing - Plotly for interactive visualizations\nDesign Patterns: - Abstract base class (DatasetLoader) for pluggable data sources - Repository pattern (MimicRepository) for dataset access - Analyser / Visualiser / UI separation of concerns - Single orchestrator class (MimicDashboardApp) wiring everything together"
   },
   {
     "objectID": "index.html",
