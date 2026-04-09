@@ -49,3 +49,9 @@ Early quantitative modeling project presented to an external examiner panel.
 An interactive Shiny dashboard based on my DSS notebook analysis of food-system greenhouse gas emissions. It uses EDGAR, food-product, and GLEAM datasets to make emissions trends explorable in a web interface.
 
 [View project details →](project1.qmd)
+
+## MIMIC-III Pathogen Alert Dashboard
+
+An interactive Shiny dashboard built on the OOP hospital alert pipeline. Processes ICU microbiology events from the MIMIC-III dataset to visualise pathogen alerts, ward heatmaps, and severity breakdowns.
+
+[View project details →](project2.qmd)

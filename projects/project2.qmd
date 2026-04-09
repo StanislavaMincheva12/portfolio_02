@@ -1,0 +1,69 @@
+---
+title: "MIMIC-III Pathogen Alert Dashboard"
+format: html
+---
+
+An interactive Shiny dashboard built on top of the OOP hospital alert system project, using real ICU microbiology data from the MIMIC-III clinical database.
+
+## Project Focus
+
+This dashboard turns an object-oriented Python pipeline into a portfolio-ready interactive tool. It processes microbiology events from the MIMIC-III dataset to detect when pathogen counts in a ward exceed safety thresholds, generating structured clinical alerts.
+
+**Data source:** MIMIC-III (Medical Information Mart for Intensive Care), a publicly available ICU database containing de-identified health data from over 40,000 patients.
+
+**Key datasets used:**
+- `MICROBIOLOGYEVENTS` — lab culture results with organism identifications
+- `PATIENTS`, `ADMISSIONS`, `ICUSTAYS` — patient stay and demographic context
+- `TRANSFERS` — ward assignment history
+
+## Why This Fits The Portfolio
+
+- The pipeline uses OOP design: abstract loaders, a domain repository, an analyzer, a visualizer, and a UI builder — all separated by responsibility.
+- The alert logic is threshold-based: each pathogen has a configurable danger weight, time window, and ward-size-adjusted threshold.
+- The Shiny dashboard makes the alert output explorable without running the full pipeline locally.
+
+## Interactive Demo
+
+```{=html}
+<div style="border: 1px solid #ddd; border-radius: 8px; padding: 2.5rem; text-align: center; background: #f9f9f9;">
+  <p style="font-size: 1.1rem; margin-bottom: 1.2rem; color: #444;">The interactive dashboard opens in a new tab.</p>
+  <a href="#" target="_blank" rel="noopener noreferrer" id="mimic-demo-btn" style="display:inline-block;padding:0.75rem 2rem;background:#2c7be5;color:#fff;border-radius:6px;font-weight:600;text-decoration:none;font-size:1rem;">🚀 Launch Interactive Demo</a>
+  <p style="font-size:0.85rem;color:#888;margin-top:0.75rem;">(Deploy the app to Posit Connect and update the link above)</p>
+</div>
+```
+
+## Features
+
+- **Alerts by Ward** — which wards raised the most alerts.
+- **Top Pathogens** — configurable ranking of organisms by alert frequency.
+- **Severity Split** — HIGH / MEDIUM / LOW breakdown using a RAG colour system.
+- **Alert Timeline** — cumulative alerts over time, filterable by ward.
+- **Pathogen × Ward Heatmap** — cross-tabulation of organism presence across wards.
+- **Data Table** — full filtered alert table with risk labels.
+
+## Running the App Locally
+
+```bash
+# Install dependencies
+pip install -r projects/mimic/requirements.txt
+
+# Start the Shiny app
+cd projects/mimic
+python -m shiny run app.py --port 8001
+```
+
+Then visit `http://127.0.0.1:8001` in your browser.
+
+## Project Details
+
+**Technology Stack:**
+- Python
+- Shiny for Python
+- Pandas for data processing
+- Plotly for interactive visualizations
+
+**Design Patterns:**
+- Abstract base class (`DatasetLoader`) for pluggable data sources
+- Repository pattern (`MimicRepository`) for dataset access
+- Analyser / Visualiser / UI separation of concerns
+- Single orchestrator class (`MimicDashboardApp`) wiring everything together

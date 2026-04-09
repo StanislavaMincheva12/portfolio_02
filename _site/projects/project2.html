@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Projects – Stanislava Mincheva</title>
+<title>MIMIC-III Pathogen Alert Dashboard – Stanislava Mincheva</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -22,6 +22,41 @@ ul.task-list li input[type="checkbox"] {
   width: 0.8em;
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 </style>
 
@@ -93,7 +128,7 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="../projects/index.html" aria-current="page"> 
+    <a class="nav-link" href="../projects/index.html"> 
 <span class="menu-text">Projects</span></a>
   </li>  
   <li class="nav-item">
@@ -121,7 +156,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Projects</h1>
+<h1 class="title">MIMIC-III Pathogen Alert Dashboard</h1>
 </div>
 
 
@@ -138,60 +173,54 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>A selection of projects and research threads that reflect my current technical profile.</p>
-<section id="healthcare-analytics-patient-outcome-modelling-mimic-iii" class="level2">
-<h2 class="anchored" data-anchor-id="healthcare-analytics-patient-outcome-modelling-mimic-iii">Healthcare Analytics: Patient Outcome Modelling (MIMIC-III)</h2>
-<p>Large-scale clinical data processing and modelling project built on ICU patient data.</p>
+<p>An interactive Shiny dashboard built on top of the OOP hospital alert system project, using real ICU microbiology data from the MIMIC-III clinical database.</p>
+<section id="project-focus" class="level2">
+<h2 class="anchored" data-anchor-id="project-focus">Project Focus</h2>
+<p>This dashboard turns an object-oriented Python pipeline into a portfolio-ready interactive tool. It processes microbiology events from the MIMIC-III dataset to detect when pathogen counts in a ward exceed safety thresholds, generating structured clinical alerts.</p>
+<p><strong>Data source:</strong> MIMIC-III (Medical Information Mart for Intensive Care), a publicly available ICU database containing de-identified health data from over 40,000 patients.</p>
+<p><strong>Key datasets used:</strong> - <code>MICROBIOLOGYEVENTS</code> — lab culture results with organism identifications - <code>PATIENTS</code>, <code>ADMISSIONS</code>, <code>ICUSTAYS</code> — patient stay and demographic context - <code>TRANSFERS</code> — ward assignment history</p>
+</section>
+<section id="why-this-fits-the-portfolio" class="level2">
+<h2 class="anchored" data-anchor-id="why-this-fits-the-portfolio">Why This Fits The Portfolio</h2>
 <ul>
-<li>Queried, cleaned, and processed 40,000+ patient records using SQL and Python.</li>
-<li>Worked with missing values and irregular time-series structure.</li>
-<li>Built a pathogen alert classification system for clinical safety use cases.</li>
+<li>The pipeline uses OOP design: abstract loaders, a domain repository, an analyzer, a visualizer, and a UI builder — all separated by responsibility.</li>
+<li>The alert logic is threshold-based: each pathogen has a configurable danger weight, time window, and ward-size-adjusted threshold.</li>
+<li>The Shiny dashboard makes the alert output explorable without running the full pipeline locally.</li>
 </ul>
 </section>
-<section id="predicting-pmsm-rotor-temperature-and-torque" class="level2">
-<h2 class="anchored" data-anchor-id="predicting-pmsm-rotor-temperature-and-torque">Predicting PMSM Rotor Temperature and Torque</h2>
-<p>Machine learning project on permanent-magnet synchronous motor performance.</p>
+<section id="interactive-demo" class="level2">
+<h2 class="anchored" data-anchor-id="interactive-demo">Interactive Demo</h2>
+<div style="border: 1px solid #ddd; border-radius: 8px; padding: 2.5rem; text-align: center; background: #f9f9f9;">
+  <p style="font-size: 1.1rem; margin-bottom: 1.2rem; color: #444;">The interactive dashboard opens in a new tab.</p>
+  <a href="#" target="_blank" rel="noopener noreferrer" id="mimic-demo-btn" style="display:inline-block;padding:0.75rem 2rem;background:#2c7be5;color:#fff;border-radius:6px;font-weight:600;text-decoration:none;font-size:1rem;">🚀 Launch Interactive Demo</a>
+  <p style="font-size:0.85rem;color:#888;margin-top:0.75rem;">(Deploy the app to Posit Connect and update the link above)</p>
+</div>
+</section>
+<section id="features" class="level2">
+<h2 class="anchored" data-anchor-id="features">Features</h2>
 <ul>
-<li>Developed CNN and Random Forest models in Python.</li>
-<li>Engineered time-series features for thermal and torque prediction.</li>
-<li>Benchmarked model quality with MAE and RMSE.</li>
+<li><strong>Alerts by Ward</strong> — which wards raised the most alerts.</li>
+<li><strong>Top Pathogens</strong> — configurable ranking of organisms by alert frequency.</li>
+<li><strong>Severity Split</strong> — HIGH / MEDIUM / LOW breakdown using a RAG colour system.</li>
+<li><strong>Alert Timeline</strong> — cumulative alerts over time, filterable by ward.</li>
+<li><strong>Pathogen × Ward Heatmap</strong> — cross-tabulation of organism presence across wards.</li>
+<li><strong>Data Table</strong> — full filtered alert table with risk labels.</li>
 </ul>
 </section>
-<section id="co2-emissions-and-fuel-use-in-europe" class="level2">
-<h2 class="anchored" data-anchor-id="co2-emissions-and-fuel-use-in-europe">CO2 Emissions and Fuel Use in Europe</h2>
-<p>Time-series and regression analysis of European emissions and fuel consumption data.</p>
-<ul>
-<li>Modelled data covering 1990 to 2020.</li>
-<li>Applied regression and ARIMA forecasting.</li>
-<li>Improved out-of-sample accuracy over a linear baseline.</li>
-</ul>
+<section id="running-the-app-locally" class="level2">
+<h2 class="anchored" data-anchor-id="running-the-app-locally">Running the App Locally</h2>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Install dependencies</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="ex">pip</span> install <span class="at">-r</span> projects/mimic/requirements.txt</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Start the Shiny app</span></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="bu">cd</span> projects/mimic</span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="ex">python</span> <span class="at">-m</span> shiny run app.py <span class="at">--port</span> 8001</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p>Then visit <code>http://127.0.0.1:8001</code> in your browser.</p>
 </section>
-<section id="ai-healthcare-validation-analysis" class="level2">
-<h2 class="anchored" data-anchor-id="ai-healthcare-validation-analysis">AI Healthcare Validation Analysis</h2>
-<p>Worked on evaluation workflows for an AI-powered semen analyzer in a healthcare startup environment.</p>
-<ul>
-<li>Compared device outputs against reference measurements.</li>
-<li>Used sensitivity, specificity, and Bland-Altman analysis for agreement assessment.</li>
-<li>Supported FDA regulatory submissions and peer-reviewed publication work.</li>
-</ul>
-</section>
-<section id="international-retail-coffee-price-dynamics" class="level2">
-<h2 class="anchored" data-anchor-id="international-retail-coffee-price-dynamics">International Retail Coffee Price Dynamics</h2>
-<p>Early quantitative modeling project presented to an external examiner panel.</p>
-<ul>
-<li>Modelled international retail coffee price margins as a stochastic random walk in MATLAB.</li>
-<li>Focused on pricing dynamics and quantitative interpretation.</li>
-</ul>
-</section>
-<section id="food-system-emissions-explorer" class="level2">
-<h2 class="anchored" data-anchor-id="food-system-emissions-explorer">Food System Emissions Explorer</h2>
-<p>An interactive Shiny dashboard based on my DSS notebook analysis of food-system greenhouse gas emissions. It uses EDGAR, food-product, and GLEAM datasets to make emissions trends explorable in a web interface.</p>
-<p><a href="../projects/project1.html">View project details →</a></p>
-</section>
-<section id="mimic-iii-pathogen-alert-dashboard" class="level2">
-<h2 class="anchored" data-anchor-id="mimic-iii-pathogen-alert-dashboard">MIMIC-III Pathogen Alert Dashboard</h2>
-<p>An interactive Shiny dashboard built on the OOP hospital alert pipeline. Processes ICU microbiology events from the MIMIC-III dataset to visualise pathogen alerts, ward heatmaps, and severity breakdowns.</p>
-<p><a href="../projects/project2.html">View project details →</a></p>
+<section id="project-details" class="level2">
+<h2 class="anchored" data-anchor-id="project-details">Project Details</h2>
+<p><strong>Technology Stack:</strong> - Python - Shiny for Python - Pandas for data processing - Plotly for interactive visualizations</p>
+<p><strong>Design Patterns:</strong> - Abstract base class (<code>DatasetLoader</code>) for pluggable data sources - Repository pattern (<code>MimicRepository</code>) for dataset access - Analyser / Visualiser / UI separation of concerns - Single orchestrator class (<code>MimicDashboardApp</code>) wiring everything together</p>
 
 
 </section>

@@ -230,7 +230,6 @@ class DashboardUI:
                     ui.input_numeric("food_count", "Top food products", value=10, min=5, max=20),
                 ),
                 ui.navset_tab(
-                    ui.nav_panel("Global Trend", ui.output_ui("global_trend_plot")),
                     ui.nav_panel("Regional Trend", ui.output_ui("regional_trend_plot")),
                     ui.nav_panel("Top Country", ui.output_ui("top_country_plot")),
                     ui.nav_panel("Food Products", ui.output_ui("top_foods_plot")),
@@ -266,12 +265,6 @@ class EmissionsDashboardApp:
         @reactive.Calc
         def food_count() -> int:
             return int(input.food_count())
-
-        @output
-        @render.ui
-        def global_trend_plot():
-            figure = self.visualizer.global_trend(self.analyzer.global_totals())
-            return ui.HTML(self.visualizer.to_html(figure))
 
         @output
         @render.ui
