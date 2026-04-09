@@ -53,7 +53,7 @@
     "href": "projects/index.html#healthcare-analytics-patient-outcome-modelling-mimic-iii",
     "title": "Projects",
     "section": "Healthcare Analytics: Patient Outcome Modelling (MIMIC-III)",
-    "text": "Healthcare Analytics: Patient Outcome Modelling (MIMIC-III)\nLarge-scale clinical data processing and modelling project built on ICU patient data.\n\nQueried, cleaned, and processed 40,000+ patient records using SQL and Python.\nWorked with missing values and irregular time-series structure.\nBuilt a pathogen alert classification system for clinical safety use cases."
+    "text": "Healthcare Analytics: Patient Outcome Modelling (MIMIC-III)\nLarge-scale clinical data processing and modelling project built on ICU patient data. Features an interactive Shiny dashboard for exploring pathogen alerts, ward heatmaps, and severity breakdowns.\n\nQueried, cleaned, and processed 40,000+ patient records using SQL and Python.\nWorked with missing values and irregular time-series structure.\nBuilt a pathogen alert classification system for clinical safety use cases.\n\nView project details →"
   },
   {
     "objectID": "projects/index.html#predicting-pmsm-rotor-temperature-and-torque",
@@ -89,13 +89,6 @@
     "title": "Projects",
     "section": "Food System Emissions Explorer",
     "text": "Food System Emissions Explorer\nAn interactive Shiny dashboard based on my DSS notebook analysis of food-system greenhouse gas emissions. It uses EDGAR, food-product, and GLEAM datasets to make emissions trends explorable in a web interface.\nView project details →"
-  },
-  {
-    "objectID": "projects/index.html#mimic-iii-pathogen-alert-dashboard",
-    "href": "projects/index.html#mimic-iii-pathogen-alert-dashboard",
-    "title": "Projects",
-    "section": "MIMIC-III Pathogen Alert Dashboard",
-    "text": "MIMIC-III Pathogen Alert Dashboard\nAn interactive Shiny dashboard built on the OOP hospital alert pipeline. Processes ICU microbiology events from the MIMIC-III dataset to visualise pathogen alerts, ward heatmaps, and severity breakdowns.\nView project details →"
   },
   {
     "objectID": "projects/project1.html",
@@ -242,7 +235,7 @@
     "href": "projects/project2.html#interactive-demo",
     "title": "MIMIC-III Pathogen Alert Dashboard",
     "section": "Interactive Demo",
-    "text": "Interactive Demo\n\n  The interactive dashboard opens in a new tab.\n  🚀 Launch Interactive Demo\n  (Deploy the app to Posit Connect and update the link above)"
+    "text": "Interactive Demo\n\n  Deploy projects/mimic/app.py to Posit Connect, then the demo will be available here.\n  Run locally: cd projects/mimic && python -m shiny run app.py --port 8001"
   },
   {
     "objectID": "projects/project2.html#features",
