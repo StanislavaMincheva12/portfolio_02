@@ -7,11 +7,13 @@ A selection of projects and research threads that reflect my current technical p
 
 ## Healthcare Analytics: Patient Outcome Modelling (MIMIC-III)
 
-Large-scale clinical data processing and modelling project built on ICU patient data.
+Large-scale clinical data processing and modelling project built on ICU patient data. Features an interactive Shiny dashboard for exploring pathogen alerts, ward heatmaps, and severity breakdowns.
 
 - Queried, cleaned, and processed 40,000+ patient records using SQL and Python.
 - Worked with missing values and irregular time-series structure.
 - Built a pathogen alert classification system for clinical safety use cases.
+
+[View project details →](project2.qmd)
 
 ## Predicting PMSM Rotor Temperature and Torque
 
@@ -49,9 +51,3 @@ Early quantitative modeling project presented to an external examiner panel.
 An interactive Shiny dashboard based on my DSS notebook analysis of food-system greenhouse gas emissions. It uses EDGAR, food-product, and GLEAM datasets to make emissions trends explorable in a web interface.
 
 [View project details →](project1.qmd)
-
-## MIMIC-III Pathogen Alert Dashboard
-
-An interactive Shiny dashboard built on the OOP hospital alert pipeline. Processes ICU microbiology events from the MIMIC-III dataset to visualise pathogen alerts, ward heatmaps, and severity breakdowns.
-
-[View project details →](project2.qmd)
