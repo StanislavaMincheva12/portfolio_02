@@ -6,6 +6,8 @@ website:
   title: "Stanislava Mincheva"
   navbar:
     left:
+      - text: "Home"
+        href: index.qmd
       - text: "Projects"
         href: projects/index.qmd
       - text: "Resume"

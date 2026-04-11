@@ -45,6 +45,17 @@ format: html
 </div>
 ```
 
+## OOP In Practice
+
+This portfolio is designed to make object-oriented thinking visible rather than keeping it hidden inside app code.
+
+- The website is a Quarto shell that presents projects, context, and documentation clearly.
+- The interactive components are Shiny for Python applications built around separable classes for data loading, analysis, visualization, UI composition, and orchestration.
+- The food-emissions dashboard and the MIMIC-III dashboard both use abstract loader classes and dedicated repository/analyzer/visualizer layers, showing OOP as a design decision rather than a cosmetic pattern.
+- Each app is structured so datasets, business logic, and interface logic can be extended independently.
+
+This makes the portfolio a demonstration of both data-science outcomes and software-engineering discipline.
+
 ## Contact
 
 - Email: [stanislava.v.m@gmail.com](mailto:stanislava.v.m@gmail.com)

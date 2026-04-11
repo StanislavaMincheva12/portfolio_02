@@ -25,10 +25,7 @@ This dashboard turns an object-oriented Python pipeline into a portfolio-ready i
 ## Interactive Demo
 
 ```{=html}
-<div style="border: 1px solid #ddd; border-radius: 8px; padding: 2.5rem; text-align: center; background: #f9f9f9;">
-  <p style="font-size: 1.1rem; margin-bottom: 1.2rem; color: #444;">The interactive dashboard opens in a new tab.</p>
-  <a href="https://connect.posit.cloud/stanislavamincheva12/content/019d7c6d-43eb-cc64-b3f7-2de7c0b3ca86" target="_blank" rel="noopener noreferrer" style="display:inline-block;padding:0.75rem 2rem;background:#2c7be5;color:#fff;border-radius:6px;font-weight:600;text-decoration:none;font-size:1rem;">🚀 Launch Interactive Demo</a>
-</div>
+<iframe src="https://connect.posit.cloud/stanislavamincheva12/content/019d7c6d-43eb-cc64-b3f7-2de7c0b3ca86" width="100%" height="900" style="border: 1px solid #ddd; border-radius: 8px; background: #fff;"></iframe>
 ```
 
 ## Features
