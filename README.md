@@ -12,14 +12,6 @@ Quarto-based personal portfolio site for the CEU Data Science Project course, co
 - Shiny for Python apps provide the required interactive analysis layer that GitHub Pages cannot execute directly.
 - The application code uses object-oriented structure to separate data loading, repositories, analysis logic, visualization, UI composition, and app orchestration.
 
-## How this maps to the course instructions
-
-The brief asks for a portfolio website, interactive data-science content, and evidence that object-oriented programming is being used intentionally rather than incidentally. This repository addresses each requirement directly.
-
-- Website layer: Quarto pages provide the portfolio shell, navigation, project writeups, resume, and contact details.
-- Interactive layer: both showcased projects are Shiny for Python apps that can be deployed to Posit Connect Cloud, which is the execution environment recommended in the instructions.
-- OOP layer: each app is structured around small classes with distinct responsibilities so the design is inspectable in code.
-- Portfolio content: the projects are based on real course or internship work rather than placeholder examples.
 
 ## Repository structure
 
