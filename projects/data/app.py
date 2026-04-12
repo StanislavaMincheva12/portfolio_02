@@ -1,3 +1,11 @@
+"""Food-system emissions dashboard for the portfolio website.
+
+The app is organised around small collaborating classes so the repository can
+show OOP design choices clearly: loaders read files, the repository provides
+datasets, the analyzer prepares summaries, the visualizer builds charts, the UI
+builder defines layout, and the app orchestrator wires everything together.
+"""
+
 from abc import ABC, abstractmethod
 from pathlib import Path
 
@@ -27,6 +35,7 @@ class CsvLoader(DatasetLoader):
         self.file_path = file_path
 
     def load(self) -> pd.DataFrame:
+        """Read a CSV file and fail early if the expected input is missing."""
         if not self.file_path.exists():
             raise FileNotFoundError(f"Missing dataset: {self.file_path}")
         return pd.read_csv(self.file_path)
@@ -39,12 +48,15 @@ class PortfolioRepository:
         self.data_dir = data_dir
 
     def load_edgar(self) -> pd.DataFrame:
+        """Return the country-year EDGAR emissions dataset."""
         return CsvLoader(self.data_dir / "EDGARfood.csv").load()
 
     def load_foods(self) -> pd.DataFrame:
+        """Return the food-product emissions comparison dataset."""
         return CsvLoader(self.data_dir / "Food_Product_Emissions.csv").load()
 
     def load_gleam(self) -> pd.DataFrame:
+        """Return the regional livestock emissions dataset from GLEAM."""
         return CsvLoader(self.data_dir / "GLEAM_LivestockEmissions.csv").load()
 
 
@@ -77,11 +89,13 @@ class EmissionsAnalyzer:
     }
 
     def __init__(self, edgar: pd.DataFrame, foods: pd.DataFrame, gleam: pd.DataFrame):
+        """Store cleaned datasets used by the dashboard."""
         self.edgar = self._prepare_edgar(edgar)
         self.foods = foods.copy()
         self.gleam = gleam.copy()
 
     def _country_to_region(self, country: str) -> str:
+        """Map a country name to a broad dashboard region."""
         if country in self.MANUAL_REGION_MAPPING:
             return self.MANUAL_REGION_MAPPING[country]
         try:
@@ -92,6 +106,7 @@ class EmissionsAnalyzer:
             return "Other"
 
     def _prepare_edgar(self, dataframe: pd.DataFrame) -> pd.DataFrame:
+        """Clean the EDGAR data and append the derived region label."""
         filtered = dataframe.copy()
         filtered = filtered.drop_duplicates(keep="first")
         filtered = filtered[filtered["GHG Emissions"] >= 0]
@@ -100,21 +115,26 @@ class EmissionsAnalyzer:
         return filtered
 
     def global_totals(self) -> pd.DataFrame:
+        """Aggregate total emissions by year across all countries."""
         return self.edgar.groupby("Year", as_index=False)["GHG Emissions"].sum()
 
     def regional_totals(self) -> pd.DataFrame:
+        """Aggregate emissions by year and broad region."""
         return self.edgar.groupby(["Year", "Region"], as_index=False)["GHG Emissions"].sum()
 
     def asia_totals(self) -> pd.DataFrame:
+        """Return the Asia-only yearly emissions series used in summary metrics."""
         asia = self.edgar[self.edgar["Region"] == "Asia"]
         return asia.groupby("Year", as_index=False)["GHG Emissions"].sum()
 
     def top_asia_country_name(self) -> str:
+        """Return the country with the highest total emissions within Asia."""
         asia = self.edgar[self.edgar["Region"] == "Asia"]
         grouped = asia.groupby("Country", as_index=False)["GHG Emissions"].sum()
         return grouped.sort_values("GHG Emissions", ascending=False).iloc[0]["Country"]
 
     def top_country_timeseries(self, region: str) -> pd.DataFrame:
+        """Return the yearly trend for the single top emitter in a selected region."""
         frame = self.edgar if region == "All" else self.edgar[self.edgar["Region"] == region]
         grouped = frame.groupby(["Country", "Year"], as_index=False)["GHG Emissions"].sum()
         totals = grouped.groupby("Country", as_index=False)["GHG Emissions"].sum()
@@ -124,11 +144,13 @@ class EmissionsAnalyzer:
         return result
 
     def top_foods(self, limit: int = 10) -> pd.DataFrame:
+        """Return the highest-emitting food products up to the requested limit."""
         return self.foods.sort_values(
             "Total from Land to Retail", ascending=False
         ).head(limit)
 
     def gleam_emission_types(self) -> pd.DataFrame:
+        """Summarise livestock emissions by region and gas type."""
         columns = [
             "Total CO2 emissions (kg CO2e)",
             "Total CH4 emissions (kg CO2e)",
@@ -137,6 +159,7 @@ class EmissionsAnalyzer:
         return self.gleam.groupby("Region", as_index=False)[columns].sum()
 
     def summary_metrics(self) -> dict[str, str]:
+        """Return compact headline metrics for the dashboard header."""
         global_totals = self.global_totals()
         asia = self.asia_totals()
         top_food = self.top_foods(1).iloc[0]
@@ -154,9 +177,11 @@ class DashboardVisualizer:
     """Create plotly charts for the app."""
 
     def to_html(self, figure: go.Figure) -> str:
+        """Serialize a Plotly figure for embedding inside a Shiny UI output."""
         return pio.to_html(figure, include_plotlyjs="cdn", full_html=False)
 
     def global_trend(self, data: pd.DataFrame) -> go.Figure:
+        """Build the global yearly emissions line chart."""
         return px.line(
             data,
             x="Year",
@@ -166,12 +191,14 @@ class DashboardVisualizer:
         )
 
     def regional_trend(self, data: pd.DataFrame, region: str) -> go.Figure:
+        """Build the regional trend chart for all regions or one selected region."""
         frame = data if region == "All" else data[data["Region"] == region]
         color = None if region != "All" else "Region"
         title = "Food system emissions by region" if region == "All" else f"Food system emissions in {region}"
         return px.line(frame, x="Year", y="GHG Emissions", color=color, markers=True, title=title)
 
     def top_country_trend(self, data: pd.DataFrame, region: str) -> go.Figure:
+        """Build the trend chart for the top emitter within the selected region."""
         title_country = data["Top Country"].iloc[0]
         title = f"Top emitting country in {region}" if region != "All" else "Top emitting country overall"
         return px.line(
@@ -183,6 +210,7 @@ class DashboardVisualizer:
         )
 
     def top_foods_bar(self, data: pd.DataFrame) -> go.Figure:
+        """Build the ranked bar chart for food-product emissions."""
         return px.bar(
             data,
             x="Food product",
@@ -191,6 +219,7 @@ class DashboardVisualizer:
         )
 
     def gleam_region_bar(self, data: pd.DataFrame) -> go.Figure:
+        """Build a grouped bar chart for livestock emissions by gas type."""
         melted = data.melt(id_vars="Region", var_name="Emission Type", value_name="Emissions")
         return px.bar(
             melted,
@@ -209,6 +238,7 @@ class DashboardUI:
         self.analyzer = analyzer
 
     def build(self):
+        """Create the page layout, filters, tabs, and summary boxes."""
         metrics = self.analyzer.summary_metrics()
         regions = ["All"] + sorted(self.analyzer.regional_totals()["Region"].dropna().unique().tolist())
         return ui.page_fluid(
@@ -244,6 +274,7 @@ class EmissionsDashboardApp:
     """Coordinate repository, analysis, UI, and server logic."""
 
     def __init__(self):
+        """Load datasets once and prepare the collaborating dashboard objects."""
         data_dir = Path(__file__).resolve().parent / "data"
         repository = PortfolioRepository(data_dir)
         self.analyzer = EmissionsAnalyzer(
@@ -255,9 +286,11 @@ class EmissionsDashboardApp:
         self.ui_builder = DashboardUI(self.analyzer)
 
     def build_ui(self):
+        """Expose the assembled UI for the Shiny app instance."""
         return self.ui_builder.build()
 
     def build_server(self, input, output, session):
+        """Attach reactive server outputs for the dashboard tabs."""
         @reactive.Calc
         def selected_region() -> str:
             return input.region()

@@ -10,8 +10,8 @@ format: html
 	<h1>Stanislava Valentinova Mincheva</h1>
 	<p class="hero-lead">Final-year Data Science and Society student at Central European University with hands-on experience in Python, SQL, machine learning, and statistical modelling across healthcare and climate datasets.</p>
 	<div class="hero-links">
-		<a class="button-link" href="projects/resume.qmd">View Resume</a>
-		<a class="ghost-link" href="projects/index.qmd">Explore Projects</a>
+		<a class="button-link" href="projects/resume.html">View Resume</a>
+		<a class="ghost-link" href="projects/index.html">Explore Projects</a>
 	</div>
 </section>
 ```
