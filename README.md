@@ -1,6 +1,6 @@
 # Stanislava Mincheva Portfolio
 
-Quarto-based personal portfolio site for the CEU Data Science Project course, combining static portfolio pages with embedded Shiny for Python applications deployed on Posit Connect Cloud.
+Quarto-based personal portfolio, combining static portfolio pages with embedded Shiny for Python applications deployed on Posit Connect Cloud.
 
 ## Live links
 
