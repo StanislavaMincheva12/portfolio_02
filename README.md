@@ -6,8 +6,7 @@ Quarto-based personal portfolio, combining static portfolio pages with embedded 
 
 - Shiny app: https://connect.posit.cloud/stanislavamincheva12/content/019d6d99-e4ec-3ef6-4076-7c5457291dbb
 - MIMIC-III app: https://connect.posit.cloud/stanislavamincheva12/content/019d7c6d-43eb-cc64-b3f7-2de7c0b3ca86
-- Quarto website: https://connect.posit.cloud/stanislavamincheva12/content/019d6d9d-c370-b7eb-a12c-18abe1304626
-
+- Quarto website: https://stanislavamincheva12-portfolio.share.connect.posit.cloud/
 - A Quarto website provides the public-facing portfolio shell.
 - Shiny for Python apps provide the required interactive analysis layer that GitHub Pages cannot execute directly.
 - The application code uses object-oriented structure to separate data loading, repositories, analysis logic, visualization, UI composition, and app orchestration.
