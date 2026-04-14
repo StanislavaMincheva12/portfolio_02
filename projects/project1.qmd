@@ -31,7 +31,7 @@ Interact with the live Shiny application below:
 ```{=html}
 <div style="border: 1px solid #ddd; border-radius: 8px; padding: 2.5rem; text-align: center; background: #f9f9f9;">
 	<p style="font-size: 1.1rem; margin-bottom: 0.75rem; color: #444;">Posit Connect blocks iframe embedding for this app, so open the dashboard directly.</p>
-	<a href="https://connect.posit.cloud/stanislavamincheva12/content/019d6d99-e4ec-3ef6-4076-7c5457291dbb" target="_blank" rel="noopener noreferrer" style="display:inline-block;padding:0.75rem 2rem;background:#2c7be5;color:#fff;border-radius:6px;font-weight:600;text-decoration:none;font-size:1rem;">Open Food System Demo</a>
+	<a href="https://019d6d99-e4ec-3ef6-4076-7c5457291dbb.share.connect.posit.cloud/" target="_blank" rel="noopener noreferrer" style="display:inline-block;padding:0.75rem 2rem;background:#2c7be5;color:#fff;border-radius:6px;font-weight:600;text-decoration:none;font-size:1rem;">Open Food System Demo</a>
 </div>
 ```
 
